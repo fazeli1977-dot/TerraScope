@@ -1,5 +1,0 @@
-earthengine-api
-geopandas
-rasterio
-requests
-flask
