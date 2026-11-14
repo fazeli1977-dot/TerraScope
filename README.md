@@ -29,11 +29,6 @@ Developed with a core focus on **Ramsar Convention Article 3.2**, the platform u
 ### Ecological AI Analysis & Risk Matrix
 ![AI Analysis](docs/assets/preview_2.png)
 
-### Exact Boundary Mapping & GIS Integration
-![GIS Mapping](docs/assets/preview_3.png)
-
----
-
 ## 🚀 Quick Start (Local Deployment)
 
 This repository contains the essential execution environment. Heavy geospatial `.shp` files and raw satellite archives are excluded to keep the repository lightweight.
@@ -63,4 +58,3 @@ The Data Engine (Python): Automatically fetches and processes satellite metrics 
 Backend & Logic (Node.js/Express): Manages processing queues and serves strict JSON responses for the UI.
 UI/UX (HTML5/CSS3/Vanilla JS + Leaflet): Renders interactive high-performance map instances with dynamic bounding boxes based on precise GeoJSON structures.
 Developed for the preservation of critical global wetlands.
-
