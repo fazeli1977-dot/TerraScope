@@ -1,0 +1,7 @@
+{
+  "outputDirectory": "frontend/public",
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "https://terrascope-backend.onrender.com/api/:path*" },
+    { "source": "/files/:path*", "destination": "https://terrascope-backend.onrender.com/files/:path*" }
+  ]
+}

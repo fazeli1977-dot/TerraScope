@@ -1,0 +1,1632 @@
+{
+  "generated_at": "2026-11-14T19:10:00.710983+00:00",
+  "total_sites_assessed": 28,
+  "assessments": [
+    {
+      "ramsar_id": 36,
+      "name_en": "Ramsar Site 36",
+      "name_fa": "شبه‌جزیره میانکاله، خلیج گرگان و آب‌بندان لپو-زاغمرز",
+      "assessed_at": "2026-11-14T19:10:00.695821+00:00",
+      "ecological_status_code": "HIGH_STRESS",
+      "risk_score": 53.0,
+      "article_3_2_alert": 1,
+      "has_satellite_data": 1,
+      "latest_water_pct": 38.4,
+      "latest_veg_pct": 22.1,
+      "latest_dry_pct": 39.5,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «شبه‌جزیره میانکاله، خلیج گرگان و آب‌بندان لپو-زاغمرز» (کد رامسر #36 - مساحت رسمی 100,000 هکتار): وضعیت فعلی در رده «تنش اکولوژیک بالا - نیازمند پایش و مدیریت فوری حقابه» با امتیاز ریسک 53.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 38.40%، پوشش گیاهی آبزی و حاشیه‌ای 22.10% و بستر خشک یا شوره‌زار 39.50% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر 0.190 و NDVI برابر 0.280). این تالاب در فهرست مونترو (ماده ۳.۲ کنوانسیون رامسر) قرار داشته و نیازمند اقدامات احیایی اولویت‌دار است. اسناد مرجع پشتیبان: IR36RIS.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 36' (Ramsar Site #36, Mazandaran / Golestan - Official Area: 100,000 ha): Classified as 'HIGH_STRESS' with a composite ecological risk score of 53.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 38.40% open water, 22.10% aquatic/riparian vegetation cover, and 39.50% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: 0.190, mean NDVI: 0.280). This wetland is listed on the Montreux Record (Article 3.2) requiring priority ecological restoration. Supporting archival documents: IR36RIS.pdf.",
+      "drivers": [
+        {
+          "code": "MONTREUX_LISTED",
+          "fa": "ثبت‌شده در فهرست مونترو (تغییر ماهیت اکولوژیک طبق ماده ۳.۲ کنوانسیون رامسر)",
+          "en": "Listed in the Montreux Record (Article 3.2 ecological character change)"
+        }
+      ],
+      "recommendations_fa": "۱) تخصیص و رهاسازی فوری حقابه زیست‌محیطی مطابق برنامه مدیریت جامع تالاب؛ ۲) کنترل ورود زهاب‌های کشاورزی و فاضلاب برای مهار اوتریفیکاسیون و پیشروی نیزارها؛ ۳) مستندسازی تغییرات ماهیت اکولوژیک جهت ارائه به دبیرخانه کنوانسیون رامسر (ماده ۳.۲).",
+      "recommendations_en": "1) Immediate enforcement and release of environmental water rights per the Integrated Wetland Management Plan; 2) Mitigation of agricultural runoff and sewage inflow to arrest eutrophication; 3) Formal Article 3.2 ecological character reporting and restoration tracking.",
+      "citations": {
+        "official_documents": [
+          "IR36RIS.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 37,
+      "name_en": "Ramsar Site 37",
+      "name_fa": "دریاچه‌های پریشان و دشت ارژن",
+      "assessed_at": "2026-11-14T19:10:00.697818+00:00",
+      "ecological_status_code": "HIGH_STRESS",
+      "risk_score": 53.0,
+      "article_3_2_alert": 1,
+      "has_satellite_data": 1,
+      "latest_water_pct": 8.2,
+      "latest_veg_pct": 14.5,
+      "latest_dry_pct": 77.3,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «دریاچه‌های پریشان و دشت ارژن» (کد رامسر #37 - مساحت رسمی 6,200 هکتار): وضعیت فعلی در رده «تنش اکولوژیک بالا - نیازمند پایش و مدیریت فوری حقابه» با امتیاز ریسک 53.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 8.20%، پوشش گیاهی آبزی و حاشیه‌ای 14.50% و بستر خشک یا شوره‌زار 77.30% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر -0.210 و NDVI برابر 0.160). این تالاب در فهرست مونترو (ماده ۳.۲ کنوانسیون رامسر) قرار داشته و نیازمند اقدامات احیایی اولویت‌دار است. اسناد مرجع پشتیبان: lakeparishanmanagementplan-i.r.iran2010.pdf, IR37RIS.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 37' (Ramsar Site #37, Fars - Official Area: 6,200 ha): Classified as 'HIGH_STRESS' with a composite ecological risk score of 53.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 8.20% open water, 14.50% aquatic/riparian vegetation cover, and 77.30% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: -0.210, mean NDVI: 0.160). This wetland is listed on the Montreux Record (Article 3.2) requiring priority ecological restoration. Supporting archival documents: lakeparishanmanagementplan-i.r.iran2010.pdf, IR37RIS.pdf.",
+      "drivers": [
+        {
+          "code": "MONTREUX_LISTED",
+          "fa": "ثبت‌شده در فهرست مونترو (تغییر ماهیت اکولوژیک طبق ماده ۳.۲ کنوانسیون رامسر)",
+          "en": "Listed in the Montreux Record (Article 3.2 ecological character change)"
+        }
+      ],
+      "recommendations_fa": "۱) تخصیص و رهاسازی فوری حقابه زیست‌محیطی مطابق برنامه مدیریت جامع تالاب؛ ۲) کنترل ورود زهاب‌های کشاورزی و فاضلاب برای مهار اوتریفیکاسیون و پیشروی نیزارها؛ ۳) مستندسازی تغییرات ماهیت اکولوژیک جهت ارائه به دبیرخانه کنوانسیون رامسر (ماده ۳.۲).",
+      "recommendations_en": "1) Immediate enforcement and release of environmental water rights per the Integrated Wetland Management Plan; 2) Mitigation of agricultural runoff and sewage inflow to arrest eutrophication; 3) Formal Article 3.2 ecological character reporting and restoration tracking.",
+      "citations": {
+        "official_documents": [
+          "lakeparishanmanagementplan-i.r.iran2010.pdf",
+          "IR37RIS.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 38,
+      "name_en": "Ramsar Site 38",
+      "name_fa": "دریاچه ارومیه",
+      "assessed_at": "2026-11-14T19:10:00.697818+00:00",
+      "ecological_status_code": "STABLE_GOOD",
+      "risk_score": 25.0,
+      "article_3_2_alert": 0,
+      "has_satellite_data": 1,
+      "latest_water_pct": 14.5,
+      "latest_veg_pct": 5.6,
+      "latest_dry_pct": 79.9,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «دریاچه ارومیه» (کد رامسر #38 - مساحت رسمی 483,000 هکتار): وضعیت فعلی در رده «پایدار - وضعیت اکولوژیک مطلوب یا در حال احیا» با امتیاز ریسک 25.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 14.50%، پوشش گیاهی آبزی و حاشیه‌ای 5.60% و بستر خشک یا شوره‌زار 79.90% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر 0.053 و NDVI برابر -0.154). این تالاب در حال حاضر خارج از فهرست مونترو قرار دارد اما نیازمند پایش مستمر شاخص‌های هیدرولوژیک است. اسناد مرجع پشتیبان: lakeurmiamanagementplan-i.r.iran2010.pdf, IR38RIS.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 38' (Ramsar Site #38, West & East Azerbaijan - Official Area: 483,000 ha): Classified as 'STABLE_GOOD' with a composite ecological risk score of 25.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 14.50% open water, 5.60% aquatic/riparian vegetation cover, and 79.90% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: 0.053, mean NDVI: -0.154). Currently outside the Montreux Record, though continuous hydrological and water-quality monitoring remains essential. Supporting archival documents: lakeurmiamanagementplan-i.r.iran2010.pdf, IR38RIS.pdf.",
+      "drivers": [],
+      "recommendations_fa": "۱) تداوم پایش فصلی تراز آب و شاخص‌های طیفی ماهواره‌ای (NDWI/NDVI)؛ ۲) حفاظت از زیستگاه‌های پرندگان مهاجر آبزی و مدیریت بهره‌برداری جوامع محلی؛ ۳) به‌روزرسانی دوره‌ای فرم اطلاعات رامسر (RIS).",
+      "recommendations_en": "1) Maintain seasonal satellite spectral monitoring (NDWI/NDVI) and hydro-period tracking; 2) Safeguard migratory waterbird habitats and regulate wise-use community practices; 3) Periodic updating of the Ramsar Information Sheet (RIS).",
+      "citations": {
+        "official_documents": [
+          "lakeurmiamanagementplan-i.r.iran2010.pdf",
+          "IR38RIS.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 39,
+      "name_en": "Ramsar Site 39",
+      "name_fa": "دریاچه‌های نیریز و تالاب‌های کمجان",
+      "assessed_at": "2026-11-14T19:10:00.697818+00:00",
+      "ecological_status_code": "HIGH_STRESS",
+      "risk_score": 53.0,
+      "article_3_2_alert": 1,
+      "has_satellite_data": 1,
+      "latest_water_pct": 6.4,
+      "latest_veg_pct": 9.2,
+      "latest_dry_pct": 84.4,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «دریاچه‌های نیریز و تالاب‌های کمجان» (کد رامسر #39 - مساحت رسمی 108,000 هکتار): وضعیت فعلی در رده «تنش اکولوژیک بالا - نیازمند پایش و مدیریت فوری حقابه» با امتیاز ریسک 53.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 6.40%، پوشش گیاهی آبزی و حاشیه‌ای 9.20% و بستر خشک یا شوره‌زار 84.40% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر -0.280 و NDVI برابر 0.110). این تالاب در فهرست مونترو (ماده ۳.۲ کنوانسیون رامسر) قرار داشته و نیازمند اقدامات احیایی اولویت‌دار است. اسناد مرجع پشتیبان: IR39RIS.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 39' (Ramsar Site #39, Fars - Official Area: 108,000 ha): Classified as 'HIGH_STRESS' with a composite ecological risk score of 53.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 6.40% open water, 9.20% aquatic/riparian vegetation cover, and 84.40% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: -0.280, mean NDVI: 0.110). This wetland is listed on the Montreux Record (Article 3.2) requiring priority ecological restoration. Supporting archival documents: IR39RIS.pdf.",
+      "drivers": [
+        {
+          "code": "MONTREUX_LISTED",
+          "fa": "ثبت‌شده در فهرست مونترو (تغییر ماهیت اکولوژیک طبق ماده ۳.۲ کنوانسیون رامسر)",
+          "en": "Listed in the Montreux Record (Article 3.2 ecological character change)"
+        }
+      ],
+      "recommendations_fa": "۱) تخصیص و رهاسازی فوری حقابه زیست‌محیطی مطابق برنامه مدیریت جامع تالاب؛ ۲) کنترل ورود زهاب‌های کشاورزی و فاضلاب برای مهار اوتریفیکاسیون و پیشروی نیزارها؛ ۳) مستندسازی تغییرات ماهیت اکولوژیک جهت ارائه به دبیرخانه کنوانسیون رامسر (ماده ۳.۲).",
+      "recommendations_en": "1) Immediate enforcement and release of environmental water rights per the Integrated Wetland Management Plan; 2) Mitigation of agricultural runoff and sewage inflow to arrest eutrophication; 3) Formal Article 3.2 ecological character reporting and restoration tracking.",
+      "citations": {
+        "official_documents": [
+          "IR39RIS.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 40,
+      "name_en": "Ramsar Site 40",
+      "name_fa": "مجموعه تالاب انزلی",
+      "assessed_at": "2026-11-14T19:10:00.697818+00:00",
+      "ecological_status_code": "HIGH_STRESS",
+      "risk_score": 53.0,
+      "article_3_2_alert": 1,
+      "has_satellite_data": 1,
+      "latest_water_pct": 41.2,
+      "latest_veg_pct": 36.8,
+      "latest_dry_pct": 22.0,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «مجموعه تالاب انزلی» (کد رامسر #40 - مساحت رسمی 19,500 هکتار): وضعیت فعلی در رده «تنش اکولوژیک بالا - نیازمند پایش و مدیریت فوری حقابه» با امتیاز ریسک 53.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 41.20%، پوشش گیاهی آبزی و حاشیه‌ای 36.80% و بستر خشک یا شوره‌زار 22.00% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر 0.240 و NDVI برابر 0.420). این تالاب در فهرست مونترو (ماده ۳.۲ کنوانسیون رامسر) قرار داشته و نیازمند اقدامات احیایی اولویت‌دار است. اسناد مرجع پشتیبان: IR40RIS_2304_en.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 40' (Ramsar Site #40, Gilan - Official Area: 19,500 ha): Classified as 'HIGH_STRESS' with a composite ecological risk score of 53.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 41.20% open water, 36.80% aquatic/riparian vegetation cover, and 22.00% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: 0.240, mean NDVI: 0.420). This wetland is listed on the Montreux Record (Article 3.2) requiring priority ecological restoration. Supporting archival documents: IR40RIS_2304_en.pdf.",
+      "drivers": [
+        {
+          "code": "MONTREUX_LISTED",
+          "fa": "ثبت‌شده در فهرست مونترو (تغییر ماهیت اکولوژیک طبق ماده ۳.۲ کنوانسیون رامسر)",
+          "en": "Listed in the Montreux Record (Article 3.2 ecological character change)"
+        }
+      ],
+      "recommendations_fa": "۱) تخصیص و رهاسازی فوری حقابه زیست‌محیطی مطابق برنامه مدیریت جامع تالاب؛ ۲) کنترل ورود زهاب‌های کشاورزی و فاضلاب برای مهار اوتریفیکاسیون و پیشروی نیزارها؛ ۳) مستندسازی تغییرات ماهیت اکولوژیک جهت ارائه به دبیرخانه کنوانسیون رامسر (ماده ۳.۲).",
+      "recommendations_en": "1) Immediate enforcement and release of environmental water rights per the Integrated Wetland Management Plan; 2) Mitigation of agricultural runoff and sewage inflow to arrest eutrophication; 3) Formal Article 3.2 ecological character reporting and restoration tracking.",
+      "citations": {
+        "official_documents": [
+          "IR40RIS_2304_en.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 41,
+      "name_en": "Ramsar Site 41",
+      "name_fa": "تالاب شادگان، خورموسی و خور الامیه",
+      "assessed_at": "2026-11-14T19:10:00.697818+00:00",
+      "ecological_status_code": "HIGH_STRESS",
+      "risk_score": 53.0,
+      "article_3_2_alert": 1,
+      "has_satellite_data": 1,
+      "latest_water_pct": 34.0,
+      "latest_veg_pct": 24.5,
+      "latest_dry_pct": 41.5,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «تالاب شادگان، خورموسی و خور الامیه» (کد رامسر #41 - مساحت رسمی 400,000 هکتار): وضعیت فعلی در رده «تنش اکولوژیک بالا - نیازمند پایش و مدیریت فوری حقابه» با امتیاز ریسک 53.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 34.00%، پوشش گیاهی آبزی و حاشیه‌ای 24.50% و بستر خشک یا شوره‌زار 41.50% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر 0.150 و NDVI برابر 0.260). این تالاب در فهرست مونترو (ماده ۳.۲ کنوانسیون رامسر) قرار داشته و نیازمند اقدامات احیایی اولویت‌دار است. اسناد مرجع پشتیبان: shadeganmanagementplan-i.r._iran2011.pdf, IR41RIS.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 41' (Ramsar Site #41, Khuzestan - Official Area: 400,000 ha): Classified as 'HIGH_STRESS' with a composite ecological risk score of 53.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 34.00% open water, 24.50% aquatic/riparian vegetation cover, and 41.50% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: 0.150, mean NDVI: 0.260). This wetland is listed on the Montreux Record (Article 3.2) requiring priority ecological restoration. Supporting archival documents: shadeganmanagementplan-i.r._iran2011.pdf, IR41RIS.pdf.",
+      "drivers": [
+        {
+          "code": "MONTREUX_LISTED",
+          "fa": "ثبت‌شده در فهرست مونترو (تغییر ماهیت اکولوژیک طبق ماده ۳.۲ کنوانسیون رامسر)",
+          "en": "Listed in the Montreux Record (Article 3.2 ecological character change)"
+        }
+      ],
+      "recommendations_fa": "۱) تخصیص و رهاسازی فوری حقابه زیست‌محیطی مطابق برنامه مدیریت جامع تالاب؛ ۲) کنترل ورود زهاب‌های کشاورزی و فاضلاب برای مهار اوتریفیکاسیون و پیشروی نیزارها؛ ۳) مستندسازی تغییرات ماهیت اکولوژیک جهت ارائه به دبیرخانه کنوانسیون رامسر (ماده ۳.۲).",
+      "recommendations_en": "1) Immediate enforcement and release of environmental water rights per the Integrated Wetland Management Plan; 2) Mitigation of agricultural runoff and sewage inflow to arrest eutrophication; 3) Formal Article 3.2 ecological character reporting and restoration tracking.",
+      "citations": {
+        "official_documents": [
+          "shadeganmanagementplan-i.r._iran2011.pdf",
+          "IR41RIS.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 42,
+      "name_en": "Ramsar Site 42",
+      "name_fa": "هامون صابری و هامون هیرمند",
+      "assessed_at": "2026-11-14T19:10:00.698837+00:00",
+      "ecological_status_code": "CRITICAL_DEGRADATION",
+      "risk_score": 85.0,
+      "article_3_2_alert": 1,
+      "has_satellite_data": 1,
+      "latest_water_pct": 4.1,
+      "latest_veg_pct": 3.8,
+      "latest_dry_pct": 92.1,
+      "water_trend_delta_pct": 2.6,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «هامون صابری و هامون هیرمند» (کد رامسر #42 - مساحت رسمی 50,000 هکتار): وضعیت فعلی در رده «بحرانی - تغییر شدید ماهیت اکولوژیک (ماده ۳.۲ کنوانسیون رامسر)» با امتیاز ریسک 85.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 4.10%، پوشش گیاهی آبزی و حاشیه‌ای 3.80% و بستر خشک یا شوره‌زار 92.10% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +2.60%؛ میانگین شاخص NDWI برابر -0.350 و NDVI برابر 0.050). این تالاب در فهرست مونترو (ماده ۳.۲ کنوانسیون رامسر) قرار داشته و نیازمند اقدامات احیایی اولویت‌دار است. اسناد مرجع پشتیبان: IR42RIS.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 42' (Ramsar Site #42, Sistan & Baluchestan - Official Area: 50,000 ha): Classified as 'CRITICAL_DEGRADATION' with a composite ecological risk score of 85.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 4.10% open water, 3.80% aquatic/riparian vegetation cover, and 92.10% dry/saline substrate (open-water delta vs. baseline: +2.60%; mean NDWI: -0.350, mean NDVI: 0.050). This wetland is listed on the Montreux Record (Article 3.2) requiring priority ecological restoration. Supporting archival documents: IR42RIS.pdf.",
+      "drivers": [
+        {
+          "code": "MONTREUX_LISTED",
+          "fa": "ثبت‌شده در فهرست مونترو (تغییر ماهیت اکولوژیک طبق ماده ۳.۲ کنوانسیون رامسر)",
+          "en": "Listed in the Montreux Record (Article 3.2 ecological character change)"
+        },
+        {
+          "code": "SEVERE_DESICCATION",
+          "fa": "خشکیدگی شدید بستر تالاب (92.1% بستر خشک/نمکی و تنها 4.10% آب آزاد در پایش سنتینل-۲)",
+          "en": "Severe bed desiccation (92.1% dry/saline bed and only 4.10% open water in Sentinel-2 EO)"
+        }
+      ],
+      "recommendations_fa": "۱) تخصیص و رهاسازی فوری حقابه زیست‌محیطی مطابق برنامه مدیریت جامع تالاب؛ ۲) کنترل ورود زهاب‌های کشاورزی و فاضلاب برای مهار اوتریفیکاسیون و پیشروی نیزارها؛ ۳) مستندسازی تغییرات ماهیت اکولوژیک جهت ارائه به دبیرخانه کنوانسیون رامسر (ماده ۳.۲).",
+      "recommendations_en": "1) Immediate enforcement and release of environmental water rights per the Integrated Wetland Management Plan; 2) Mitigation of agricultural runoff and sewage inflow to arrest eutrophication; 3) Formal Article 3.2 ecological character reporting and restoration tracking.",
+      "citations": {
+        "official_documents": [
+          "IR42RIS.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 43,
+      "name_en": "Ramsar Site 43",
+      "name_fa": "دریاچه قوپی (کوبی)",
+      "assessed_at": "2026-11-14T19:10:00.698837+00:00",
+      "ecological_status_code": "STABLE_GOOD",
+      "risk_score": 25.0,
+      "article_3_2_alert": 0,
+      "has_satellite_data": 1,
+      "latest_water_pct": 29.5,
+      "latest_veg_pct": 18.2,
+      "latest_dry_pct": 52.3,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «دریاچه قوپی (کوبی)» (کد رامسر #43 - مساحت رسمی 1,200 هکتار): وضعیت فعلی در رده «پایدار - وضعیت اکولوژیک مطلوب یا در حال احیا» با امتیاز ریسک 25.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 29.50%، پوشش گیاهی آبزی و حاشیه‌ای 18.20% و بستر خشک یا شوره‌زار 52.30% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر 0.110 و NDVI برابر 0.220). این تالاب در حال حاضر خارج از فهرست مونترو قرار دارد اما نیازمند پایش مستمر شاخص‌های هیدرولوژیک است. اسناد مرجع پشتیبان: IR43RIS.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 43' (Ramsar Site #43, West Azerbaijan - Official Area: 1,200 ha): Classified as 'STABLE_GOOD' with a composite ecological risk score of 25.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 29.50% open water, 18.20% aquatic/riparian vegetation cover, and 52.30% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: 0.110, mean NDVI: 0.220). Currently outside the Montreux Record, though continuous hydrological and water-quality monitoring remains essential. Supporting archival documents: IR43RIS.pdf.",
+      "drivers": [],
+      "recommendations_fa": "۱) تداوم پایش فصلی تراز آب و شاخص‌های طیفی ماهواره‌ای (NDWI/NDVI)؛ ۲) حفاظت از زیستگاه‌های پرندگان مهاجر آبزی و مدیریت بهره‌برداری جوامع محلی؛ ۳) به‌روزرسانی دوره‌ای فرم اطلاعات رامسر (RIS).",
+      "recommendations_en": "1) Maintain seasonal satellite spectral monitoring (NDWI/NDVI) and hydro-period tracking; 2) Safeguard migratory waterbird habitats and regulate wise-use community practices; 3) Periodic updating of the Ramsar Information Sheet (RIS).",
+      "citations": {
+        "official_documents": [
+          "IR43RIS.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 44,
+      "name_en": "Ramsar Site 44",
+      "name_fa": "انتهای جنوبی هامون پوزک",
+      "assessed_at": "2026-11-14T19:10:00.698837+00:00",
+      "ecological_status_code": "HIGH_STRESS",
+      "risk_score": 53.0,
+      "article_3_2_alert": 1,
+      "has_satellite_data": 1,
+      "latest_water_pct": 5.8,
+      "latest_veg_pct": 6.1,
+      "latest_dry_pct": 88.1,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «انتهای جنوبی هامون پوزک» (کد رامسر #44 - مساحت رسمی 10,000 هکتار): وضعیت فعلی در رده «تنش اکولوژیک بالا - نیازمند پایش و مدیریت فوری حقابه» با امتیاز ریسک 53.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 5.80%، پوشش گیاهی آبزی و حاشیه‌ای 6.10% و بستر خشک یا شوره‌زار 88.10% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر -0.290 و NDVI برابر 0.080). این تالاب در فهرست مونترو (ماده ۳.۲ کنوانسیون رامسر) قرار داشته و نیازمند اقدامات احیایی اولویت‌دار است. اسناد مرجع پشتیبان: IR44RIS.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 44' (Ramsar Site #44, Sistan & Baluchestan - Official Area: 10,000 ha): Classified as 'HIGH_STRESS' with a composite ecological risk score of 53.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 5.80% open water, 6.10% aquatic/riparian vegetation cover, and 88.10% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: -0.290, mean NDVI: 0.080). This wetland is listed on the Montreux Record (Article 3.2) requiring priority ecological restoration. Supporting archival documents: IR44RIS.pdf.",
+      "drivers": [
+        {
+          "code": "MONTREUX_LISTED",
+          "fa": "ثبت‌شده در فهرست مونترو (تغییر ماهیت اکولوژیک طبق ماده ۳.۲ کنوانسیون رامسر)",
+          "en": "Listed in the Montreux Record (Article 3.2 ecological character change)"
+        }
+      ],
+      "recommendations_fa": "۱) تخصیص و رهاسازی فوری حقابه زیست‌محیطی مطابق برنامه مدیریت جامع تالاب؛ ۲) کنترل ورود زهاب‌های کشاورزی و فاضلاب برای مهار اوتریفیکاسیون و پیشروی نیزارها؛ ۳) مستندسازی تغییرات ماهیت اکولوژیک جهت ارائه به دبیرخانه کنوانسیون رامسر (ماده ۳.۲).",
+      "recommendations_en": "1) Immediate enforcement and release of environmental water rights per the Integrated Wetland Management Plan; 2) Mitigation of agricultural runoff and sewage inflow to arrest eutrophication; 3) Formal Article 3.2 ecological character reporting and restoration tracking.",
+      "citations": {
+        "official_documents": [
+          "IR44RIS.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 45,
+      "name_en": "Ramsar Site 45",
+      "name_fa": "دریاچه‌های شورگل، یادگارلو و درگه سنگی",
+      "assessed_at": "2026-11-14T19:10:00.698837+00:00",
+      "ecological_status_code": "HIGH_STRESS",
+      "risk_score": 53.0,
+      "article_3_2_alert": 1,
+      "has_satellite_data": 1,
+      "latest_water_pct": 21.0,
+      "latest_veg_pct": 17.5,
+      "latest_dry_pct": 61.5,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «دریاچه‌های شورگل، یادگارلو و درگه سنگی» (کد رامسر #45 - مساحت رسمی 2,500 هکتار): وضعیت فعلی در رده «تنش اکولوژیک بالا - نیازمند پایش و مدیریت فوری حقابه» با امتیاز ریسک 53.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 21.00%، پوشش گیاهی آبزی و حاشیه‌ای 17.50% و بستر خشک یا شوره‌زار 61.50% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر 0.040 و NDVI برابر 0.190). این تالاب در فهرست مونترو (ماده ۳.۲ کنوانسیون رامسر) قرار داشته و نیازمند اقدامات احیایی اولویت‌دار است. اسناد مرجع پشتیبان: IR45RIS.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 45' (Ramsar Site #45, West Azerbaijan - Official Area: 2,500 ha): Classified as 'HIGH_STRESS' with a composite ecological risk score of 53.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 21.00% open water, 17.50% aquatic/riparian vegetation cover, and 61.50% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: 0.040, mean NDVI: 0.190). This wetland is listed on the Montreux Record (Article 3.2) requiring priority ecological restoration. Supporting archival documents: IR45RIS.pdf.",
+      "drivers": [
+        {
+          "code": "MONTREUX_LISTED",
+          "fa": "ثبت‌شده در فهرست مونترو (تغییر ماهیت اکولوژیک طبق ماده ۳.۲ کنوانسیون رامسر)",
+          "en": "Listed in the Montreux Record (Article 3.2 ecological character change)"
+        }
+      ],
+      "recommendations_fa": "۱) تخصیص و رهاسازی فوری حقابه زیست‌محیطی مطابق برنامه مدیریت جامع تالاب؛ ۲) کنترل ورود زهاب‌های کشاورزی و فاضلاب برای مهار اوتریفیکاسیون و پیشروی نیزارها؛ ۳) مستندسازی تغییرات ماهیت اکولوژیک جهت ارائه به دبیرخانه کنوانسیون رامسر (ماده ۳.۲).",
+      "recommendations_en": "1) Immediate enforcement and release of environmental water rights per the Integrated Wetland Management Plan; 2) Mitigation of agricultural runoff and sewage inflow to arrest eutrophication; 3) Formal Article 3.2 ecological character reporting and restoration tracking.",
+      "citations": {
+        "official_documents": [
+          "IR45RIS.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 46,
+      "name_en": "Ramsar Site 46",
+      "name_fa": "پارک ملی بوجاق",
+      "assessed_at": "2026-11-14T19:10:00.698837+00:00",
+      "ecological_status_code": "STABLE_GOOD",
+      "risk_score": 25.0,
+      "article_3_2_alert": 0,
+      "has_satellite_data": 1,
+      "latest_water_pct": 52.3,
+      "latest_veg_pct": 28.4,
+      "latest_dry_pct": 19.3,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «پارک ملی بوجاق» (کد رامسر #46 - مساحت رسمی 3,433 هکتار): وضعیت فعلی در رده «پایدار - وضعیت اکولوژیک مطلوب یا در حال احیا» با امتیاز ریسک 25.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 52.30%، پوشش گیاهی آبزی و حاشیه‌ای 28.40% و بستر خشک یا شوره‌زار 19.30% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر 0.310 و NDVI برابر 0.350). این تالاب در حال حاضر خارج از فهرست مونترو قرار دارد اما نیازمند پایش مستمر شاخص‌های هیدرولوژیک است. اسناد مرجع پشتیبان: IR46RIS_2206_en.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 46' (Ramsar Site #46, Gilan - Official Area: 3,433 ha): Classified as 'STABLE_GOOD' with a composite ecological risk score of 25.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 52.30% open water, 28.40% aquatic/riparian vegetation cover, and 19.30% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: 0.310, mean NDVI: 0.350). Currently outside the Montreux Record, though continuous hydrological and water-quality monitoring remains essential. Supporting archival documents: IR46RIS_2206_en.pdf.",
+      "drivers": [],
+      "recommendations_fa": "۱) تداوم پایش فصلی تراز آب و شاخص‌های طیفی ماهواره‌ای (NDWI/NDVI)؛ ۲) حفاظت از زیستگاه‌های پرندگان مهاجر آبزی و مدیریت بهره‌برداری جوامع محلی؛ ۳) به‌روزرسانی دوره‌ای فرم اطلاعات رامسر (RIS).",
+      "recommendations_en": "1) Maintain seasonal satellite spectral monitoring (NDWI/NDVI) and hydro-period tracking; 2) Safeguard migratory waterbird habitats and regulate wise-use community practices; 3) Periodic updating of the Ramsar Information Sheet (RIS).",
+      "citations": {
+        "official_documents": [
+          "IR46RIS_2206_en.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 47,
+      "name_en": "Ramsar Site 47",
+      "name_fa": "تالاب امیرکلایه",
+      "assessed_at": "2026-11-14T19:10:00.698837+00:00",
+      "ecological_status_code": "STABLE_GOOD",
+      "risk_score": 25.0,
+      "article_3_2_alert": 0,
+      "has_satellite_data": 1,
+      "latest_water_pct": 48.0,
+      "latest_veg_pct": 37.0,
+      "latest_dry_pct": 15.0,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «تالاب امیرکلایه» (کد رامسر #47 - مساحت رسمی 1,132 هکتار): وضعیت فعلی در رده «پایدار - وضعیت اکولوژیک مطلوب یا در حال احیا» با امتیاز ریسک 25.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 48.00%، پوشش گیاهی آبزی و حاشیه‌ای 37.00% و بستر خشک یا شوره‌زار 15.00% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر 0.290 و NDVI برابر 0.440). این تالاب در حال حاضر خارج از فهرست مونترو قرار دارد اما نیازمند پایش مستمر شاخص‌های هیدرولوژیک است. اسناد مرجع پشتیبان: IR47RIS_2206_en.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 47' (Ramsar Site #47, Gilan - Official Area: 1,132 ha): Classified as 'STABLE_GOOD' with a composite ecological risk score of 25.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 48.00% open water, 37.00% aquatic/riparian vegetation cover, and 15.00% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: 0.290, mean NDVI: 0.440). Currently outside the Montreux Record, though continuous hydrological and water-quality monitoring remains essential. Supporting archival documents: IR47RIS_2206_en.pdf.",
+      "drivers": [],
+      "recommendations_fa": "۱) تداوم پایش فصلی تراز آب و شاخص‌های طیفی ماهواره‌ای (NDWI/NDVI)؛ ۲) حفاظت از زیستگاه‌های پرندگان مهاجر آبزی و مدیریت بهره‌برداری جوامع محلی؛ ۳) به‌روزرسانی دوره‌ای فرم اطلاعات رامسر (RIS).",
+      "recommendations_en": "1) Maintain seasonal satellite spectral monitoring (NDWI/NDVI) and hydro-period tracking; 2) Safeguard migratory waterbird habitats and regulate wise-use community practices; 3) Periodic updating of the Ramsar Information Sheet (RIS).",
+      "citations": {
+        "official_documents": [
+          "IR47RIS_2206_en.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 48,
+      "name_en": "Ramsar Site 48",
+      "name_fa": "تالاب قوری‌گل",
+      "assessed_at": "2026-11-14T19:10:00.699834+00:00",
+      "ecological_status_code": "STABLE_GOOD",
+      "risk_score": 25.0,
+      "article_3_2_alert": 0,
+      "has_satellite_data": 1,
+      "latest_water_pct": 44.2,
+      "latest_veg_pct": 21.0,
+      "latest_dry_pct": 34.8,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «تالاب قوری‌گل» (کد رامسر #48 - مساحت رسمی 120 هکتار): وضعیت فعلی در رده «پایدار - وضعیت اکولوژیک مطلوب یا در حال احیا» با امتیاز ریسک 25.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 44.20%، پوشش گیاهی آبزی و حاشیه‌ای 21.00% و بستر خشک یا شوره‌زار 34.80% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر 0.220 و NDVI برابر 0.250). این تالاب در حال حاضر خارج از فهرست مونترو قرار دارد اما نیازمند پایش مستمر شاخص‌های هیدرولوژیک است. اسناد مرجع پشتیبان: IR48RIS.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 48' (Ramsar Site #48, East Azerbaijan - Official Area: 120 ha): Classified as 'STABLE_GOOD' with a composite ecological risk score of 25.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 44.20% open water, 21.00% aquatic/riparian vegetation cover, and 34.80% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: 0.220, mean NDVI: 0.250). Currently outside the Montreux Record, though continuous hydrological and water-quality monitoring remains essential. Supporting archival documents: IR48RIS.pdf.",
+      "drivers": [],
+      "recommendations_fa": "۱) تداوم پایش فصلی تراز آب و شاخص‌های طیفی ماهواره‌ای (NDWI/NDVI)؛ ۲) حفاظت از زیستگاه‌های پرندگان مهاجر آبزی و مدیریت بهره‌برداری جوامع محلی؛ ۳) به‌روزرسانی دوره‌ای فرم اطلاعات رامسر (RIS).",
+      "recommendations_en": "1) Maintain seasonal satellite spectral monitoring (NDWI/NDVI) and hydro-period tracking; 2) Safeguard migratory waterbird habitats and regulate wise-use community practices; 3) Periodic updating of the Ramsar Information Sheet (RIS).",
+      "citations": {
+        "official_documents": [
+          "IR48RIS.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 49,
+      "name_en": "Ramsar Site 49",
+      "name_fa": "مجموعه دریاچه‌های آلاگل، آلماگل و آجی‌گل",
+      "assessed_at": "2026-11-14T19:10:00.699834+00:00",
+      "ecological_status_code": "STABLE_GOOD",
+      "risk_score": 25.0,
+      "article_3_2_alert": 0,
+      "has_satellite_data": 1,
+      "latest_water_pct": 36.5,
+      "latest_veg_pct": 16.8,
+      "latest_dry_pct": 46.7,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «مجموعه دریاچه‌های آلاگل، آلماگل و آجی‌گل» (کد رامسر #49 - مساحت رسمی 1,400 هکتار): وضعیت فعلی در رده «پایدار - وضعیت اکولوژیک مطلوب یا در حال احیا» با امتیاز ریسک 25.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 36.50%، پوشش گیاهی آبزی و حاشیه‌ای 16.80% و بستر خشک یا شوره‌زار 46.70% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر 0.170 و NDVI برابر 0.210). این تالاب در حال حاضر خارج از فهرست مونترو قرار دارد اما نیازمند پایش مستمر شاخص‌های هیدرولوژیک است. اسناد مرجع پشتیبان: key_montreux_iran_alagol.pdf, IR49RIS.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 49' (Ramsar Site #49, Golestan - Official Area: 1,400 ha): Classified as 'STABLE_GOOD' with a composite ecological risk score of 25.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 36.50% open water, 16.80% aquatic/riparian vegetation cover, and 46.70% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: 0.170, mean NDVI: 0.210). Currently outside the Montreux Record, though continuous hydrological and water-quality monitoring remains essential. Supporting archival documents: key_montreux_iran_alagol.pdf, IR49RIS.pdf.",
+      "drivers": [],
+      "recommendations_fa": "۱) تداوم پایش فصلی تراز آب و شاخص‌های طیفی ماهواره‌ای (NDWI/NDVI)؛ ۲) حفاظت از زیستگاه‌های پرندگان مهاجر آبزی و مدیریت بهره‌برداری جوامع محلی؛ ۳) به‌روزرسانی دوره‌ای فرم اطلاعات رامسر (RIS).",
+      "recommendations_en": "1) Maintain seasonal satellite spectral monitoring (NDWI/NDVI) and hydro-period tracking; 2) Safeguard migratory waterbird habitats and regulate wise-use community practices; 3) Periodic updating of the Ramsar Information Sheet (RIS).",
+      "citations": {
+        "official_documents": [
+          "key_montreux_iran_alagol.pdf",
+          "IR49RIS.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 50,
+      "name_en": "Ramsar Site 50",
+      "name_fa": "تنگه خوران",
+      "assessed_at": "2026-11-14T19:10:00.699834+00:00",
+      "ecological_status_code": "STABLE_GOOD",
+      "risk_score": 25.0,
+      "article_3_2_alert": 0,
+      "has_satellite_data": 1,
+      "latest_water_pct": 64.0,
+      "latest_veg_pct": 21.0,
+      "latest_dry_pct": 15.0,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «تنگه خوران» (کد رامسر #50 - مساحت رسمی 100,000 هکتار): وضعیت فعلی در رده «پایدار - وضعیت اکولوژیک مطلوب یا در حال احیا» با امتیاز ریسک 25.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 64.00%، پوشش گیاهی آبزی و حاشیه‌ای 21.00% و بستر خشک یا شوره‌زار 15.00% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر 0.410 و NDVI برابر 0.330). این تالاب در حال حاضر خارج از فهرست مونترو قرار دارد اما نیازمند پایش مستمر شاخص‌های هیدرولوژیک است. اسناد مرجع پشتیبان: IR50RIS.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 50' (Ramsar Site #50, Hormozgan - Official Area: 100,000 ha): Classified as 'STABLE_GOOD' with a composite ecological risk score of 25.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 64.00% open water, 21.00% aquatic/riparian vegetation cover, and 15.00% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: 0.410, mean NDVI: 0.330). Currently outside the Montreux Record, though continuous hydrological and water-quality monitoring remains essential. Supporting archival documents: IR50RIS.pdf.",
+      "drivers": [],
+      "recommendations_fa": "۱) تداوم پایش فصلی تراز آب و شاخص‌های طیفی ماهواره‌ای (NDWI/NDVI)؛ ۲) حفاظت از زیستگاه‌های پرندگان مهاجر آبزی و مدیریت بهره‌برداری جوامع محلی؛ ۳) به‌روزرسانی دوره‌ای فرم اطلاعات رامسر (RIS).",
+      "recommendations_en": "1) Maintain seasonal satellite spectral monitoring (NDWI/NDVI) and hydro-period tracking; 2) Safeguard migratory waterbird habitats and regulate wise-use community practices; 3) Periodic updating of the Ramsar Information Sheet (RIS).",
+      "citations": {
+        "official_documents": [
+          "IR50RIS.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 51,
+      "name_en": "Ramsar Site 51",
+      "name_fa": "دلتای رودهای شور، شیرین و میناب",
+      "assessed_at": "2026-11-14T19:10:00.700363+00:00",
+      "ecological_status_code": "STABLE_GOOD",
+      "risk_score": 25.0,
+      "article_3_2_alert": 0,
+      "has_satellite_data": 1,
+      "latest_water_pct": 51.2,
+      "latest_veg_pct": 19.8,
+      "latest_dry_pct": 29.0,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «دلتای رودهای شور، شیرین و میناب» (کد رامسر #51 - مساحت رسمی 45,000 هکتار): وضعیت فعلی در رده «پایدار - وضعیت اکولوژیک مطلوب یا در حال احیا» با امتیاز ریسک 25.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 51.20%، پوشش گیاهی آبزی و حاشیه‌ای 19.80% و بستر خشک یا شوره‌زار 29.00% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر 0.320 و NDVI برابر 0.270). این تالاب در حال حاضر خارج از فهرست مونترو قرار دارد اما نیازمند پایش مستمر شاخص‌های هیدرولوژیک است. اسناد مرجع پشتیبان: IR51RIS.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 51' (Ramsar Site #51, Hormozgan - Official Area: 45,000 ha): Classified as 'STABLE_GOOD' with a composite ecological risk score of 25.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 51.20% open water, 19.80% aquatic/riparian vegetation cover, and 29.00% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: 0.320, mean NDVI: 0.270). Currently outside the Montreux Record, though continuous hydrological and water-quality monitoring remains essential. Supporting archival documents: IR51RIS.pdf.",
+      "drivers": [],
+      "recommendations_fa": "۱) تداوم پایش فصلی تراز آب و شاخص‌های طیفی ماهواره‌ای (NDWI/NDVI)؛ ۲) حفاظت از زیستگاه‌های پرندگان مهاجر آبزی و مدیریت بهره‌برداری جوامع محلی؛ ۳) به‌روزرسانی دوره‌ای فرم اطلاعات رامسر (RIS).",
+      "recommendations_en": "1) Maintain seasonal satellite spectral monitoring (NDWI/NDVI) and hydro-period tracking; 2) Safeguard migratory waterbird habitats and regulate wise-use community practices; 3) Periodic updating of the Ramsar Information Sheet (RIS).",
+      "citations": {
+        "official_documents": [
+          "IR51RIS.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 52,
+      "name_en": "Ramsar Site 52",
+      "name_fa": "دلتای رودهای گز و حرا",
+      "assessed_at": "2026-11-14T19:10:00.700363+00:00",
+      "ecological_status_code": "STABLE_GOOD",
+      "risk_score": 25.0,
+      "article_3_2_alert": 0,
+      "has_satellite_data": 1,
+      "latest_water_pct": 55.8,
+      "latest_veg_pct": 24.1,
+      "latest_dry_pct": 20.1,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «دلتای رودهای گز و حرا» (کد رامسر #52 - مساحت رسمی 15,000 هکتار): وضعیت فعلی در رده «پایدار - وضعیت اکولوژیک مطلوب یا در حال احیا» با امتیاز ریسک 25.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 55.80%، پوشش گیاهی آبزی و حاشیه‌ای 24.10% و بستر خشک یا شوره‌زار 20.10% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر 0.360 و NDVI برابر 0.310). این تالاب در حال حاضر خارج از فهرست مونترو قرار دارد اما نیازمند پایش مستمر شاخص‌های هیدرولوژیک است. اسناد مرجع پشتیبان: IR52RIS.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 52' (Ramsar Site #52, Hormozgan - Official Area: 15,000 ha): Classified as 'STABLE_GOOD' with a composite ecological risk score of 25.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 55.80% open water, 24.10% aquatic/riparian vegetation cover, and 20.10% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: 0.360, mean NDVI: 0.310). Currently outside the Montreux Record, though continuous hydrological and water-quality monitoring remains essential. Supporting archival documents: IR52RIS.pdf.",
+      "drivers": [],
+      "recommendations_fa": "۱) تداوم پایش فصلی تراز آب و شاخص‌های طیفی ماهواره‌ای (NDWI/NDVI)؛ ۲) حفاظت از زیستگاه‌های پرندگان مهاجر آبزی و مدیریت بهره‌برداری جوامع محلی؛ ۳) به‌روزرسانی دوره‌ای فرم اطلاعات رامسر (RIS).",
+      "recommendations_en": "1) Maintain seasonal satellite spectral monitoring (NDWI/NDVI) and hydro-period tracking; 2) Safeguard migratory waterbird habitats and regulate wise-use community practices; 3) Periodic updating of the Ramsar Information Sheet (RIS).",
+      "citations": {
+        "official_documents": [
+          "IR52RIS.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 53,
+      "name_en": "Ramsar Site 53",
+      "name_fa": "دریاچه گاوخونی و باتلاق‌های پایین‌دست زاینده‌رود",
+      "assessed_at": "2026-11-14T19:10:00.700363+00:00",
+      "ecological_status_code": "STABLE_GOOD",
+      "risk_score": 25.0,
+      "article_3_2_alert": 0,
+      "has_satellite_data": 1,
+      "latest_water_pct": 7.2,
+      "latest_veg_pct": 4.9,
+      "latest_dry_pct": 87.9,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «دریاچه گاوخونی و باتلاق‌های پایین‌دست زاینده‌رود» (کد رامسر #53 - مساحت رسمی 43,000 هکتار): وضعیت فعلی در رده «پایدار - وضعیت اکولوژیک مطلوب یا در حال احیا» با امتیاز ریسک 25.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 7.20%، پوشش گیاهی آبزی و حاشیه‌ای 4.90% و بستر خشک یا شوره‌زار 87.90% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر -0.260 و NDVI برابر 0.060). این تالاب در حال حاضر خارج از فهرست مونترو قرار دارد اما نیازمند پایش مستمر شاخص‌های هیدرولوژیک است. اسناد مرجع پشتیبان: IR53RIS.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 53' (Ramsar Site #53, Isfahan - Official Area: 43,000 ha): Classified as 'STABLE_GOOD' with a composite ecological risk score of 25.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 7.20% open water, 4.90% aquatic/riparian vegetation cover, and 87.90% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: -0.260, mean NDVI: 0.060). Currently outside the Montreux Record, though continuous hydrological and water-quality monitoring remains essential. Supporting archival documents: IR53RIS.pdf.",
+      "drivers": [],
+      "recommendations_fa": "۱) تداوم پایش فصلی تراز آب و شاخص‌های طیفی ماهواره‌ای (NDWI/NDVI)؛ ۲) حفاظت از زیستگاه‌های پرندگان مهاجر آبزی و مدیریت بهره‌برداری جوامع محلی؛ ۳) به‌روزرسانی دوره‌ای فرم اطلاعات رامسر (RIS).",
+      "recommendations_en": "1) Maintain seasonal satellite spectral monitoring (NDWI/NDVI) and hydro-period tracking; 2) Safeguard migratory waterbird habitats and regulate wise-use community practices; 3) Periodic updating of the Ramsar Information Sheet (RIS).",
+      "citations": {
+        "official_documents": [
+          "IR53RIS.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 1006,
+      "name_en": "Ramsar Site 1006",
+      "name_fa": "خلیج گواتر و هور باهو",
+      "assessed_at": "2026-11-14T19:10:00.700363+00:00",
+      "ecological_status_code": "STABLE_GOOD",
+      "risk_score": 25.0,
+      "article_3_2_alert": 0,
+      "has_satellite_data": 1,
+      "latest_water_pct": 58.4,
+      "latest_veg_pct": 15.2,
+      "latest_dry_pct": 26.4,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «خلیج گواتر و هور باهو» (کد رامسر #1006 - مساحت رسمی 75,000 هکتار): وضعیت فعلی در رده «پایدار - وضعیت اکولوژیک مطلوب یا در حال احیا» با امتیاز ریسک 25.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 58.40%، پوشش گیاهی آبزی و حاشیه‌ای 15.20% و بستر خشک یا شوره‌زار 26.40% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر 0.350 و NDVI برابر 0.230). این تالاب در حال حاضر خارج از فهرست مونترو قرار دارد اما نیازمند پایش مستمر شاخص‌های هیدرولوژیک است. اسناد مرجع پشتیبان: IR1006RIS.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 1006' (Ramsar Site #1006, Sistan & Baluchestan - Official Area: 75,000 ha): Classified as 'STABLE_GOOD' with a composite ecological risk score of 25.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 58.40% open water, 15.20% aquatic/riparian vegetation cover, and 26.40% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: 0.350, mean NDVI: 0.230). Currently outside the Montreux Record, though continuous hydrological and water-quality monitoring remains essential. Supporting archival documents: IR1006RIS.pdf.",
+      "drivers": [],
+      "recommendations_fa": "۱) تداوم پایش فصلی تراز آب و شاخص‌های طیفی ماهواره‌ای (NDWI/NDVI)؛ ۲) حفاظت از زیستگاه‌های پرندگان مهاجر آبزی و مدیریت بهره‌برداری جوامع محلی؛ ۳) به‌روزرسانی دوره‌ای فرم اطلاعات رامسر (RIS).",
+      "recommendations_en": "1) Maintain seasonal satellite spectral monitoring (NDWI/NDVI) and hydro-period tracking; 2) Safeguard migratory waterbird habitats and regulate wise-use community practices; 3) Periodic updating of the Ramsar Information Sheet (RIS).",
+      "citations": {
+        "official_documents": [
+          "IR1006RIS.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 1015,
+      "name_en": "Ramsar Site 1015",
+      "name_fa": "جزیره شیدور",
+      "assessed_at": "2026-11-14T19:10:00.700363+00:00",
+      "ecological_status_code": "STABLE_GOOD",
+      "risk_score": 25.0,
+      "article_3_2_alert": 0,
+      "has_satellite_data": 1,
+      "latest_water_pct": 71.0,
+      "latest_veg_pct": 12.4,
+      "latest_dry_pct": 16.6,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «جزیره شیدور» (کد رامسر #1015 - مساحت رسمی 870 هکتار): وضعیت فعلی در رده «پایدار - وضعیت اکولوژیک مطلوب یا در حال احیا» با امتیاز ریسک 25.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 71.00%، پوشش گیاهی آبزی و حاشیه‌ای 12.40% و بستر خشک یا شوره‌زار 16.60% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر 0.460 و NDVI برابر 0.180). این تالاب در حال حاضر خارج از فهرست مونترو قرار دارد اما نیازمند پایش مستمر شاخص‌های هیدرولوژیک است. اسناد مرجع پشتیبان: IR1015RIS.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 1015' (Ramsar Site #1015, Hormozgan - Official Area: 870 ha): Classified as 'STABLE_GOOD' with a composite ecological risk score of 25.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 71.00% open water, 12.40% aquatic/riparian vegetation cover, and 16.60% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: 0.460, mean NDVI: 0.180). Currently outside the Montreux Record, though continuous hydrological and water-quality monitoring remains essential. Supporting archival documents: IR1015RIS.pdf.",
+      "drivers": [],
+      "recommendations_fa": "۱) تداوم پایش فصلی تراز آب و شاخص‌های طیفی ماهواره‌ای (NDWI/NDVI)؛ ۲) حفاظت از زیستگاه‌های پرندگان مهاجر آبزی و مدیریت بهره‌برداری جوامع محلی؛ ۳) به‌روزرسانی دوره‌ای فرم اطلاعات رامسر (RIS).",
+      "recommendations_en": "1) Maintain seasonal satellite spectral monitoring (NDWI/NDVI) and hydro-period tracking; 2) Safeguard migratory waterbird habitats and regulate wise-use community practices; 3) Periodic updating of the Ramsar Information Sheet (RIS).",
+      "citations": {
+        "official_documents": [
+          "IR1015RIS.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 1109,
+      "name_en": "Ramsar Site 1109",
+      "name_fa": "تالاب گمیشان",
+      "assessed_at": "2026-11-14T19:10:00.700363+00:00",
+      "ecological_status_code": "STABLE_GOOD",
+      "risk_score": 25.0,
+      "article_3_2_alert": 0,
+      "has_satellite_data": 1,
+      "latest_water_pct": 33.1,
+      "latest_veg_pct": 14.9,
+      "latest_dry_pct": 52.0,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «تالاب گمیشان» (کد رامسر #1109 - مساحت رسمی 17,700 هکتار): وضعیت فعلی در رده «پایدار - وضعیت اکولوژیک مطلوب یا در حال احیا» با امتیاز ریسک 25.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 33.10%، پوشش گیاهی آبزی و حاشیه‌ای 14.90% و بستر خشک یا شوره‌زار 52.00% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر 0.140 و NDVI برابر 0.190). این تالاب در حال حاضر خارج از فهرست مونترو قرار دارد اما نیازمند پایش مستمر شاخص‌های هیدرولوژیک است. اسناد مرجع پشتیبان: IR1109RIS.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 1109' (Ramsar Site #1109, Golestan - Official Area: 17,700 ha): Classified as 'STABLE_GOOD' with a composite ecological risk score of 25.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 33.10% open water, 14.90% aquatic/riparian vegetation cover, and 52.00% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: 0.140, mean NDVI: 0.190). Currently outside the Montreux Record, though continuous hydrological and water-quality monitoring remains essential. Supporting archival documents: IR1109RIS.pdf.",
+      "drivers": [],
+      "recommendations_fa": "۱) تداوم پایش فصلی تراز آب و شاخص‌های طیفی ماهواره‌ای (NDWI/NDVI)؛ ۲) حفاظت از زیستگاه‌های پرندگان مهاجر آبزی و مدیریت بهره‌برداری جوامع محلی؛ ۳) به‌روزرسانی دوره‌ای فرم اطلاعات رامسر (RIS).",
+      "recommendations_en": "1) Maintain seasonal satellite spectral monitoring (NDWI/NDVI) and hydro-period tracking; 2) Safeguard migratory waterbird habitats and regulate wise-use community practices; 3) Periodic updating of the Ramsar Information Sheet (RIS).",
+      "citations": {
+        "official_documents": [
+          "IR1109RIS.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 1308,
+      "name_en": "Ramsar Site 1308",
+      "name_fa": "آب‌بندان‌های فریدونکنار، ازباران و سرخ‌رود",
+      "assessed_at": "2026-11-14T19:10:00.700363+00:00",
+      "ecological_status_code": "STABLE_GOOD",
+      "risk_score": 25.0,
+      "article_3_2_alert": 0,
+      "has_satellite_data": 1,
+      "latest_water_pct": 61.5,
+      "latest_veg_pct": 23.5,
+      "latest_dry_pct": 15.0,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «آب‌بندان‌های فریدونکنار، ازباران و سرخ‌رود» (کد رامسر #1308 - مساحت رسمی 5,427 هکتار): وضعیت فعلی در رده «پایدار - وضعیت اکولوژیک مطلوب یا در حال احیا» با امتیاز ریسک 25.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 61.50%، پوشش گیاهی آبزی و حاشیه‌ای 23.50% و بستر خشک یا شوره‌زار 15.00% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر 0.380 و NDVI برابر 0.370). این تالاب در حال حاضر خارج از فهرست مونترو قرار دارد اما نیازمند پایش مستمر شاخص‌های هیدرولوژیک است. اسناد مرجع پشتیبان: IR1308RIS.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 1308' (Ramsar Site #1308, Mazandaran - Official Area: 5,427 ha): Classified as 'STABLE_GOOD' with a composite ecological risk score of 25.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 61.50% open water, 23.50% aquatic/riparian vegetation cover, and 15.00% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: 0.380, mean NDVI: 0.370). Currently outside the Montreux Record, though continuous hydrological and water-quality monitoring remains essential. Supporting archival documents: IR1308RIS.pdf.",
+      "drivers": [],
+      "recommendations_fa": "۱) تداوم پایش فصلی تراز آب و شاخص‌های طیفی ماهواره‌ای (NDWI/NDVI)؛ ۲) حفاظت از زیستگاه‌های پرندگان مهاجر آبزی و مدیریت بهره‌برداری جوامع محلی؛ ۳) به‌روزرسانی دوره‌ای فرم اطلاعات رامسر (RIS).",
+      "recommendations_en": "1) Maintain seasonal satellite spectral monitoring (NDWI/NDVI) and hydro-period tracking; 2) Safeguard migratory waterbird habitats and regulate wise-use community practices; 3) Periodic updating of the Ramsar Information Sheet (RIS).",
+      "citations": {
+        "official_documents": [
+          "IR1308RIS.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 1939,
+      "name_en": "Ramsar Site 1939",
+      "name_fa": "تالاب چغاخور",
+      "assessed_at": "2026-11-14T19:10:00.701385+00:00",
+      "ecological_status_code": "STABLE_GOOD",
+      "risk_score": 25.0,
+      "article_3_2_alert": 0,
+      "has_satellite_data": 1,
+      "latest_water_pct": 46.8,
+      "latest_veg_pct": 29.1,
+      "latest_dry_pct": 24.1,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «تالاب چغاخور» (کد رامسر #1939 - مساحت رسمی 1,687 هکتار): وضعیت فعلی در رده «پایدار - وضعیت اکولوژیک مطلوب یا در حال احیا» با امتیاز ریسک 25.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 46.80%، پوشش گیاهی آبزی و حاشیه‌ای 29.10% و بستر خشک یا شوره‌زار 24.10% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر 0.270 و NDVI برابر 0.340). این تالاب در حال حاضر خارج از فهرست مونترو قرار دارد اما نیازمند پایش مستمر شاخص‌های هیدرولوژیک است. اسناد مرجع پشتیبان: IR1939RIS.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 1939' (Ramsar Site #1939, Chaharmahal & Bakhtiari - Official Area: 1,687 ha): Classified as 'STABLE_GOOD' with a composite ecological risk score of 25.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 46.80% open water, 29.10% aquatic/riparian vegetation cover, and 24.10% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: 0.270, mean NDVI: 0.340). Currently outside the Montreux Record, though continuous hydrological and water-quality monitoring remains essential. Supporting archival documents: IR1939RIS.pdf.",
+      "drivers": [],
+      "recommendations_fa": "۱) تداوم پایش فصلی تراز آب و شاخص‌های طیفی ماهواره‌ای (NDWI/NDVI)؛ ۲) حفاظت از زیستگاه‌های پرندگان مهاجر آبزی و مدیریت بهره‌برداری جوامع محلی؛ ۳) به‌روزرسانی دوره‌ای فرم اطلاعات رامسر (RIS).",
+      "recommendations_en": "1) Maintain seasonal satellite spectral monitoring (NDWI/NDVI) and hydro-period tracking; 2) Safeguard migratory waterbird habitats and regulate wise-use community practices; 3) Periodic updating of the Ramsar Information Sheet (RIS).",
+      "citations": {
+        "official_documents": [
+          "IR1939RIS.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 1940,
+      "name_en": "Ramsar Site 1940",
+      "name_fa": "تالاب کانی‌برازان",
+      "assessed_at": "2026-11-14T19:10:00.701385+00:00",
+      "ecological_status_code": "STABLE_GOOD",
+      "risk_score": 25.0,
+      "article_3_2_alert": 0,
+      "has_satellite_data": 1,
+      "latest_water_pct": 37.9,
+      "latest_veg_pct": 31.4,
+      "latest_dry_pct": 30.7,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «تالاب کانی‌برازان» (کد رامسر #1940 - مساحت رسمی 927 هکتار): وضعیت فعلی در رده «پایدار - وضعیت اکولوژیک مطلوب یا در حال احیا» با امتیاز ریسک 25.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 37.90%، پوشش گیاهی آبزی و حاشیه‌ای 31.40% و بستر خشک یا شوره‌زار 30.70% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر 0.210 و NDVI برابر 0.360). این تالاب در حال حاضر خارج از فهرست مونترو قرار دارد اما نیازمند پایش مستمر شاخص‌های هیدرولوژیک است. اسناد مرجع پشتیبان: COP15NR_IranIR_e_0.pdf, Ramsar-Sites-annotated-summary-Iran-Islamic-Republic-of.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 1940' (Ramsar Site #1940, West Azerbaijan - Official Area: 927 ha): Classified as 'STABLE_GOOD' with a composite ecological risk score of 25.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 37.90% open water, 31.40% aquatic/riparian vegetation cover, and 30.70% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: 0.210, mean NDVI: 0.360). Currently outside the Montreux Record, though continuous hydrological and water-quality monitoring remains essential. Supporting archival documents: COP15NR_IranIR_e_0.pdf, Ramsar-Sites-annotated-summary-Iran-Islamic-Republic-of.pdf.",
+      "drivers": [],
+      "recommendations_fa": "۱) تداوم پایش فصلی تراز آب و شاخص‌های طیفی ماهواره‌ای (NDWI/NDVI)؛ ۲) حفاظت از زیستگاه‌های پرندگان مهاجر آبزی و مدیریت بهره‌برداری جوامع محلی؛ ۳) به‌روزرسانی دوره‌ای فرم اطلاعات رامسر (RIS).",
+      "recommendations_en": "1) Maintain seasonal satellite spectral monitoring (NDWI/NDVI) and hydro-period tracking; 2) Safeguard migratory waterbird habitats and regulate wise-use community practices; 3) Periodic updating of the Ramsar Information Sheet (RIS).",
+      "citations": {
+        "official_documents": [
+          "COP15NR_IranIR_e_0.pdf",
+          "Ramsar-Sites-annotated-summary-Iran-Islamic-Republic-of.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 2369,
+      "name_en": "Ramsar Site 2369",
+      "name_fa": "دریاچه زریوار",
+      "assessed_at": "2026-11-14T19:10:00.701385+00:00",
+      "ecological_status_code": "STABLE_GOOD",
+      "risk_score": 25.0,
+      "article_3_2_alert": 0,
+      "has_satellite_data": 1,
+      "latest_water_pct": 54.6,
+      "latest_veg_pct": 30.4,
+      "latest_dry_pct": 15.0,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «دریاچه زریوار» (کد رامسر #2369 - مساحت رسمی 2,186 هکتار): وضعیت فعلی در رده «پایدار - وضعیت اکولوژیک مطلوب یا در حال احیا» با امتیاز ریسک 25.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 54.60%، پوشش گیاهی آبزی و حاشیه‌ای 30.40% و بستر خشک یا شوره‌زار 15.00% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر 0.340 و NDVI برابر 0.390). این تالاب در حال حاضر خارج از فهرست مونترو قرار دارد اما نیازمند پایش مستمر شاخص‌های هیدرولوژیک است. اسناد مرجع پشتیبان: IR2369RIS_1901_en.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 2369' (Ramsar Site #2369, Kurdistan - Official Area: 2,186 ha): Classified as 'STABLE_GOOD' with a composite ecological risk score of 25.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 54.60% open water, 30.40% aquatic/riparian vegetation cover, and 15.00% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: 0.340, mean NDVI: 0.390). Currently outside the Montreux Record, though continuous hydrological and water-quality monitoring remains essential. Supporting archival documents: IR2369RIS_1901_en.pdf.",
+      "drivers": [],
+      "recommendations_fa": "۱) تداوم پایش فصلی تراز آب و شاخص‌های طیفی ماهواره‌ای (NDWI/NDVI)؛ ۲) حفاظت از زیستگاه‌های پرندگان مهاجر آبزی و مدیریت بهره‌برداری جوامع محلی؛ ۳) به‌روزرسانی دوره‌ای فرم اطلاعات رامسر (RIS).",
+      "recommendations_en": "1) Maintain seasonal satellite spectral monitoring (NDWI/NDVI) and hydro-period tracking; 2) Safeguard migratory waterbird habitats and regulate wise-use community practices; 3) Periodic updating of the Ramsar Information Sheet (RIS).",
+      "citations": {
+        "official_documents": [
+          "IR2369RIS_1901_en.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 2539,
+      "name_en": "Ramsar Site 2539",
+      "name_fa": "تالاب استیل عباس‌آباد",
+      "assessed_at": "2026-11-14T19:10:00.701385+00:00",
+      "ecological_status_code": "STABLE_GOOD",
+      "risk_score": 25.0,
+      "article_3_2_alert": 0,
+      "has_satellite_data": 1,
+      "latest_water_pct": 49.3,
+      "latest_veg_pct": 35.7,
+      "latest_dry_pct": 15.0,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «تالاب استیل عباس‌آباد» (کد رامسر #2539 - مساحت رسمی 20 هکتار): وضعیت فعلی در رده «پایدار - وضعیت اکولوژیک مطلوب یا در حال احیا» با امتیاز ریسک 25.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 49.30%، پوشش گیاهی آبزی و حاشیه‌ای 35.70% و بستر خشک یا شوره‌زار 15.00% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر 0.280 و NDVI برابر 0.430). این تالاب در حال حاضر خارج از فهرست مونترو قرار دارد اما نیازمند پایش مستمر شاخص‌های هیدرولوژیک است. اسناد مرجع پشتیبان: IR2539RIS_2401_en.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 2539' (Ramsar Site #2539, Gilan - Official Area: 20 ha): Classified as 'STABLE_GOOD' with a composite ecological risk score of 25.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 49.30% open water, 35.70% aquatic/riparian vegetation cover, and 15.00% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: 0.280, mean NDVI: 0.430). Currently outside the Montreux Record, though continuous hydrological and water-quality monitoring remains essential. Supporting archival documents: IR2539RIS_2401_en.pdf.",
+      "drivers": [],
+      "recommendations_fa": "۱) تداوم پایش فصلی تراز آب و شاخص‌های طیفی ماهواره‌ای (NDWI/NDVI)؛ ۲) حفاظت از زیستگاه‌های پرندگان مهاجر آبزی و مدیریت بهره‌برداری جوامع محلی؛ ۳) به‌روزرسانی دوره‌ای فرم اطلاعات رامسر (RIS).",
+      "recommendations_en": "1) Maintain seasonal satellite spectral monitoring (NDWI/NDVI) and hydro-period tracking; 2) Safeguard migratory waterbird habitats and regulate wise-use community practices; 3) Periodic updating of the Ramsar Information Sheet (RIS).",
+      "citations": {
+        "official_documents": [
+          "IR2539RIS_2401_en.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 2558,
+      "name_en": "Ramsar Site 2558",
+      "name_fa": "تالاب گندمان",
+      "assessed_at": "2026-11-14T19:10:00.701385+00:00",
+      "ecological_status_code": "STABLE_GOOD",
+      "risk_score": 25.0,
+      "article_3_2_alert": 0,
+      "has_satellite_data": 1,
+      "latest_water_pct": 39.4,
+      "latest_veg_pct": 34.0,
+      "latest_dry_pct": 26.6,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «تالاب گندمان» (کد رامسر #2558 - مساحت رسمی 1,070 هکتار): وضعیت فعلی در رده «پایدار - وضعیت اکولوژیک مطلوب یا در حال احیا» با امتیاز ریسک 25.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 39.40%، پوشش گیاهی آبزی و حاشیه‌ای 34.00% و بستر خشک یا شوره‌زار 26.60% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر 0.230 و NDVI برابر 0.380). این تالاب در حال حاضر خارج از فهرست مونترو قرار دارد اما نیازمند پایش مستمر شاخص‌های هیدرولوژیک است. اسناد مرجع پشتیبان: IR2558RIS_2502_en.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 2558' (Ramsar Site #2558, Chaharmahal & Bakhtiari - Official Area: 1,070 ha): Classified as 'STABLE_GOOD' with a composite ecological risk score of 25.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 39.40% open water, 34.00% aquatic/riparian vegetation cover, and 26.60% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: 0.230, mean NDVI: 0.380). Currently outside the Montreux Record, though continuous hydrological and water-quality monitoring remains essential. Supporting archival documents: IR2558RIS_2502_en.pdf.",
+      "drivers": [],
+      "recommendations_fa": "۱) تداوم پایش فصلی تراز آب و شاخص‌های طیفی ماهواره‌ای (NDWI/NDVI)؛ ۲) حفاظت از زیستگاه‌های پرندگان مهاجر آبزی و مدیریت بهره‌برداری جوامع محلی؛ ۳) به‌روزرسانی دوره‌ای فرم اطلاعات رامسر (RIS).",
+      "recommendations_en": "1) Maintain seasonal satellite spectral monitoring (NDWI/NDVI) and hydro-period tracking; 2) Safeguard migratory waterbird habitats and regulate wise-use community practices; 3) Periodic updating of the Ramsar Information Sheet (RIS).",
+      "citations": {
+        "official_documents": [
+          "IR2558RIS_2502_en.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    },
+    {
+      "ramsar_id": 2601,
+      "name_en": "Ramsar Site 2601",
+      "name_fa": "دریاچه گهر",
+      "assessed_at": "2026-11-14T19:10:00.701385+00:00",
+      "ecological_status_code": "STABLE_GOOD",
+      "risk_score": 25.0,
+      "article_3_2_alert": 0,
+      "has_satellite_data": 1,
+      "latest_water_pct": 68.2,
+      "latest_veg_pct": 16.8,
+      "latest_dry_pct": 15.0,
+      "water_trend_delta_pct": 4.2,
+      "summary_fa": "تحلیل هوشمند اکولوژیک «دریاچه گهر» (کد رامسر #2601 - مساحت رسمی 80 هکتار): وضعیت فعلی در رده «پایدار - وضعیت اکولوژیک مطلوب یا در حال احیا» با امتیاز ریسک 25.0 از ۱۰۰ ارزیابی می‌شود. بر اساس پردازش تصاویر ماهواره‌ای Sentinel-2 L2A، در آخرین دوره پایش، پهنه آبی آزاد معادل 68.20%، پوشش گیاهی آبزی و حاشیه‌ای 16.80% و بستر خشک یا شوره‌زار 15.00% از محدوده تالاب را تشکیل می‌دهد (تغییرات آب آزاد نسبت به دوره پایه: +4.20%؛ میانگین شاخص NDWI برابر 0.440 و NDVI برابر 0.260). این تالاب در حال حاضر خارج از فهرست مونترو قرار دارد اما نیازمند پایش مستمر شاخص‌های هیدرولوژیک است. اسناد مرجع پشتیبان: IR2601RIS_2609_en.pdf.",
+      "summary_en": "Ecological AI Synthesis for 'Ramsar Site 2601' (Ramsar Site #2601, Lorestan - Official Area: 80 ha): Classified as 'STABLE_GOOD' with a composite ecological risk score of 25.0/100. Based on Sentinel-2 L2A optical imagery analysis, the latest observation indicates 68.20% open water, 16.80% aquatic/riparian vegetation cover, and 15.00% dry/saline substrate (open-water delta vs. baseline: +4.20%; mean NDWI: 0.440, mean NDVI: 0.260). Currently outside the Montreux Record, though continuous hydrological and water-quality monitoring remains essential. Supporting archival documents: IR2601RIS_2609_en.pdf.",
+      "drivers": [],
+      "recommendations_fa": "۱) تداوم پایش فصلی تراز آب و شاخص‌های طیفی ماهواره‌ای (NDWI/NDVI)؛ ۲) حفاظت از زیستگاه‌های پرندگان مهاجر آبزی و مدیریت بهره‌برداری جوامع محلی؛ ۳) به‌روزرسانی دوره‌ای فرم اطلاعات رامسر (RIS).",
+      "recommendations_en": "1) Maintain seasonal satellite spectral monitoring (NDWI/NDVI) and hydro-period tracking; 2) Safeguard migratory waterbird habitats and regulate wise-use community practices; 3) Periodic updating of the Ramsar Information Sheet (RIS).",
+      "citations": {
+        "official_documents": [
+          "IR2601RIS_2609_en.pdf"
+        ],
+        "text_excerpts": [
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 1,
+            "excerpt": "NATIONAL REPORT ON THE IMPLEMENTATION OF THE RAMSAR CONVENTION ON WETLANDS National Reports to be submitted to the 13th Meeting of the Conference of the Contracting Parties, Dubai, United Arab Emirates, 2018 Ramsar COP13 National Report For"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 2,
+            "excerpt": "2 1. The COP13 National Report Format (NRF) has been approved by the Standing Committee 52 for the Ramsar Convention’s Contracting Parties to complete as their national reporting to the 13th meeting of the Conference of the Contracting Part"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 3,
+            "excerpt": "3 ii) provide tools for countries for their national planning iii) capture lessons and experience to help Parties plan future action; iv) identify emerging issues and implementation challenges faced by Parties that may require further atten"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 4,
+            "excerpt": "4 Convention’s lead implementation role on wetlands for the CBD. In particular, the Ramsar Secretariat and STRP used the COP10 NRF indicators extensively in 2009 to prepare contributions to the in-depth review of the CBD programme of work o"
+          },
+          {
+            "file": "COP13NR_IRIran_e.pdf",
+            "type": "COP_NATIONAL_REPORT",
+            "page": 5,
+            "excerpt": "5 Section 5 is an optional annex to allow any Contracting Party that so wishes to provide additional information regarding any or all of its Wetlands of International Importance (Ramsar Sites). General guidance for completing and submitting"
+          }
+        ]
+      }
+    }
+  ]
+}

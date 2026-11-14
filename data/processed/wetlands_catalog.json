@@ -1,0 +1,750 @@
+[
+  {
+    "ramsar_id": 36,
+    "ris_code": "IR36",
+    "name_en": "Miankaleh Peninsula, Gorgan Bay and Lapoo-Zaghmarz Ab-bandan",
+    "name_fa": "شبه‌جزیره میانکاله، خلیج گرگان و آب‌بندان لپو زاغمرز",
+    "lat": 36.827674,
+    "lon": 53.697212,
+    "area_ha": 100000,
+    "elev_min_m": 0,
+    "elev_max_m": 0,
+    "montreux_listed": false,
+    "geometry_source": "Official RSIS Vector Shapefile",
+    "is_exact_boundary": true,
+    "v_idris": 179,
+    "bbox": [
+      53.259477,
+      36.727533,
+      54.049479,
+      36.967847
+    ],
+    "ris_pdf": "IR36RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR36RIS.pdf",
+    "official_maps": [
+      "/data/maps/IR36map.pdf"
+    ]
+  },
+  {
+    "ramsar_id": 37,
+    "ris_code": "IR37",
+    "name_en": "Lake Parishan and Dasht-e-Arjan",
+    "name_fa": "دریاچه پریشان و دشت ارژن",
+    "lat": 29.5,
+    "lon": 52,
+    "area_ha": 6200,
+    "elev_min_m": 853,
+    "elev_max_m": 2000,
+    "montreux_listed": false,
+    "geometry_source": "RSIS Centroid + Official Area Buffer (Pending Exact Polygon)",
+    "is_exact_boundary": false,
+    "v_idris": null,
+    "bbox": [
+      51.954149,
+      29.460093,
+      52.045851,
+      29.539907
+    ],
+    "ris_pdf": "IR37RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR37RIS.pdf",
+    "official_maps": [
+      "/data/maps/IR37map.pdf"
+    ]
+  },
+  {
+    "ramsar_id": 38,
+    "ris_code": "IR38",
+    "name_en": "Lake Urmia [or Orumiyeh]",
+    "name_fa": "دریاچه ارومیه",
+    "lat": 37.5,
+    "lon": 45.5,
+    "area_ha": 483000,
+    "elev_min_m": 1280,
+    "elev_max_m": 1525,
+    "montreux_listed": false,
+    "geometry_source": "RSIS Centroid + Official Area Buffer (Pending Exact Polygon)",
+    "is_exact_boundary": false,
+    "v_idris": null,
+    "bbox": [
+      45.056025,
+      37.147771,
+      45.943975,
+      37.852229
+    ],
+    "ris_pdf": "IR38RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR38RIS.pdf",
+    "official_maps": []
+  },
+  {
+    "ramsar_id": 39,
+    "ris_code": "IR39",
+    "name_en": "Neiriz Lakes & Kamjan Marshes",
+    "name_fa": "دریاچه‌های نی‌ریز (بختگان و طشک) و باتلاق‌های کمجان",
+    "lat": 29.666667,
+    "lon": 53.5,
+    "area_ha": 108000,
+    "elev_min_m": 1525,
+    "elev_max_m": 1540,
+    "montreux_listed": true,
+    "geometry_source": "RSIS Centroid + Official Area Buffer (Pending Exact Polygon)",
+    "is_exact_boundary": false,
+    "v_idris": null,
+    "bbox": [
+      53.308317,
+      29.50011,
+      53.691683,
+      29.833224
+    ],
+    "ris_pdf": "IR39RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR39RIS.pdf",
+    "official_maps": []
+  },
+  {
+    "ramsar_id": 40,
+    "ris_code": "IR40",
+    "name_en": "Anzali Wetland",
+    "name_fa": "تالاب انزلی",
+    "lat": 37.440446,
+    "lon": 49.411461,
+    "area_ha": 19500,
+    "elev_min_m": -27,
+    "elev_max_m": -26,
+    "montreux_listed": true,
+    "geometry_source": "Official RSIS Vector Shapefile",
+    "is_exact_boundary": true,
+    "v_idris": 47231915,
+    "bbox": [
+      49.23819,
+      37.372913,
+      49.607047,
+      37.536396
+    ],
+    "ris_pdf": "IR40RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR40RIS.pdf",
+    "official_maps": [
+      "/data/maps/IR40_map180515.jpg"
+    ]
+  },
+  {
+    "ramsar_id": 41,
+    "ris_code": "IR41",
+    "name_en": "Shadegan Marshes & mudflats of Khor-al Amaya & Khor Musa",
+    "name_fa": "تالاب شادگان و خورهای موسی و الامیه",
+    "lat": 30.5,
+    "lon": 48.75,
+    "area_ha": 400000,
+    "elev_min_m": 0,
+    "elev_max_m": 15,
+    "montreux_listed": true,
+    "geometry_source": "RSIS Centroid + Official Area Buffer (Pending Exact Polygon)",
+    "is_exact_boundary": false,
+    "v_idris": null,
+    "bbox": [
+      48.377984,
+      30.17946,
+      49.122016,
+      30.82054
+    ],
+    "ris_pdf": "IR41RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR41RIS.pdf",
+    "official_maps": [
+      "/data/maps/IR41map.pdf"
+    ]
+  },
+  {
+    "ramsar_id": 42,
+    "ris_code": "IR42",
+    "name_en": "Hamun-e-Saberi & Hamun-e-Helmand",
+    "name_fa": "هامون صابری و هامون هیرمند",
+    "lat": 31.235753,
+    "lon": 61.254341,
+    "area_ha": 50000,
+    "elev_min_m": 470,
+    "elev_max_m": 475,
+    "montreux_listed": true,
+    "geometry_source": "Official RSIS Vector Shapefile",
+    "is_exact_boundary": true,
+    "v_idris": 185,
+    "bbox": [
+      61.14835,
+      31.003182,
+      61.374177,
+      31.444389
+    ],
+    "ris_pdf": "IR42RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR42RIS.pdf",
+    "official_maps": []
+  },
+  {
+    "ramsar_id": 43,
+    "ris_code": "IR43",
+    "name_en": "Lake Kobi",
+    "name_fa": "دریاچه کجی (قوری‌گل/کبی)",
+    "lat": 36.95,
+    "lon": 45.5,
+    "area_ha": 1200,
+    "elev_min_m": 1240,
+    "elev_max_m": 1240,
+    "montreux_listed": false,
+    "geometry_source": "RSIS Centroid + Official Area Buffer (Pending Exact Polygon)",
+    "is_exact_boundary": false,
+    "v_idris": null,
+    "bbox": [
+      45.478031,
+      36.932443,
+      45.521969,
+      36.967557
+    ],
+    "ris_pdf": "IR43RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR43RIS.pdf",
+    "official_maps": [
+      "/data/maps/IR43map.pdf"
+    ]
+  },
+  {
+    "ramsar_id": 44,
+    "ris_code": "IR44",
+    "name_en": "Hamun-e-Puzak, south end",
+    "name_fa": "بخش جنوبی هامون پوزک",
+    "lat": 31.333333,
+    "lon": 61.75,
+    "area_ha": 10000,
+    "elev_min_m": 490,
+    "elev_max_m": 490,
+    "montreux_listed": true,
+    "geometry_source": "RSIS Centroid + Official Area Buffer (Pending Exact Polygon)",
+    "is_exact_boundary": false,
+    "v_idris": null,
+    "bbox": [
+      61.690665,
+      31.282651,
+      61.809335,
+      31.384015
+    ],
+    "ris_pdf": "IR44RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR44RIS.pdf",
+    "official_maps": [
+      "/data/maps/IR44map.pdf"
+    ]
+  },
+  {
+    "ramsar_id": 45,
+    "ris_code": "IR45",
+    "name_en": "Shurgol, Yadegarlu & Dorgeh Sangi Lakes",
+    "name_fa": "دریاچه‌های شورگل، یادگارلو و درگه سنگی",
+    "lat": 37,
+    "lon": 45.5,
+    "area_ha": 2500,
+    "elev_min_m": 1290,
+    "elev_max_m": 1290,
+    "montreux_listed": true,
+    "geometry_source": "RSIS Centroid + Official Area Buffer (Pending Exact Polygon)",
+    "is_exact_boundary": false,
+    "v_idris": null,
+    "bbox": [
+      45.46827,
+      36.974659,
+      45.53173,
+      37.025341
+    ],
+    "ris_pdf": "IR45RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR45RIS.pdf",
+    "official_maps": [
+      "/data/maps/IR45map.pdf"
+    ]
+  },
+  {
+    "ramsar_id": 46,
+    "ris_code": "IR46",
+    "name_en": "Bujagh National Park",
+    "name_fa": "پارک ملی بوجاق",
+    "lat": 37.452096,
+    "lon": 49.933978,
+    "area_ha": 3433,
+    "elev_min_m": -24,
+    "elev_max_m": -23,
+    "montreux_listed": false,
+    "geometry_source": "Official RSIS Vector Shapefile",
+    "is_exact_boundary": true,
+    "v_idris": 47321469,
+    "bbox": [
+      49.861791,
+      37.414293,
+      50.000856,
+      37.481979
+    ],
+    "ris_pdf": "IR46RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR46RIS.pdf",
+    "official_maps": [
+      "/data/maps/IR46_map210116.jpg"
+    ]
+  },
+  {
+    "ramsar_id": 47,
+    "ris_code": "IR47",
+    "name_en": "Amirkelayeh Lake",
+    "name_fa": "تالاب امیرکلایه",
+    "lat": 37.343668,
+    "lon": 50.18754,
+    "area_ha": 1131.6,
+    "elev_min_m": -24,
+    "elev_max_m": -23,
+    "montreux_listed": false,
+    "geometry_source": "Official RSIS Vector Shapefile",
+    "is_exact_boundary": true,
+    "v_idris": 47323432,
+    "bbox": [
+      50.164548,
+      37.316536,
+      50.20654,
+      37.371435
+    ],
+    "ris_pdf": "IR47RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR47RIS.pdf",
+    "official_maps": [
+      "/data/maps/IR47_map210116_1.jpg"
+    ]
+  },
+  {
+    "ramsar_id": 48,
+    "ris_code": "IR48",
+    "name_en": "Lake Gori",
+    "name_fa": "تالاب قوری‌گل",
+    "lat": 37.916667,
+    "lon": 46.7,
+    "area_ha": 120,
+    "elev_min_m": 1897,
+    "elev_max_m": 1950,
+    "montreux_listed": false,
+    "geometry_source": "RSIS Centroid + Official Area Buffer (Pending Exact Polygon)",
+    "is_exact_boundary": false,
+    "v_idris": null,
+    "bbox": [
+      46.692963,
+      37.911115,
+      46.707037,
+      37.922219
+    ],
+    "ris_pdf": "IR48RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR48RIS.pdf",
+    "official_maps": [
+      "/data/maps/IR48map.pdf"
+    ]
+  },
+  {
+    "ramsar_id": 49,
+    "ris_code": "IR49",
+    "name_en": "Alagol, Ulmagol and Ajigol Lakes",
+    "name_fa": "تالاب‌های آلاگل، آلماگل و آجی‌گل",
+    "lat": 37.35,
+    "lon": 54.583333,
+    "area_ha": 1400,
+    "elev_min_m": 5,
+    "elev_max_m": 5,
+    "montreux_listed": true,
+    "geometry_source": "RSIS Centroid + Official Area Buffer (Pending Exact Polygon)",
+    "is_exact_boundary": false,
+    "v_idris": null,
+    "bbox": [
+      54.559478,
+      37.331037,
+      54.607188,
+      37.368963
+    ],
+    "ris_pdf": "IR49RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR49RIS.pdf",
+    "official_maps": [
+      "/data/maps/IR49map.pdf"
+    ]
+  },
+  {
+    "ramsar_id": 50,
+    "ris_code": "IR50",
+    "name_en": "Khuran Straits",
+    "name_fa": "تنگه خوران (جنگل‌های حرا)",
+    "lat": 26.75,
+    "lon": 55.666667,
+    "area_ha": 100000,
+    "elev_min_m": 0,
+    "elev_max_m": 0,
+    "montreux_listed": false,
+    "geometry_source": "RSIS Centroid + Official Area Buffer (Pending Exact Polygon)",
+    "is_exact_boundary": false,
+    "v_idris": null,
+    "bbox": [
+      55.487189,
+      26.58973,
+      55.846145,
+      26.91027
+    ],
+    "ris_pdf": "IR50RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR50RIS.pdf",
+    "official_maps": [
+      "/data/maps/IR50map.pdf"
+    ]
+  },
+  {
+    "ramsar_id": 51,
+    "ris_code": "IR51",
+    "name_en": "Deltas of Rud-e-Shur, Rud-e-Shirin and Rud-e-Minab",
+    "name_fa": "دلتای رود شور، رود شیرین و رود میناب",
+    "lat": 27.091552,
+    "lon": 56.754657,
+    "area_ha": 45000,
+    "elev_min_m": 0,
+    "elev_max_m": 0,
+    "montreux_listed": false,
+    "geometry_source": "Official RSIS Vector Shapefile",
+    "is_exact_boundary": true,
+    "v_idris": 194,
+    "bbox": [
+      56.370991,
+      26.873654,
+      56.98194,
+      27.192708
+    ],
+    "ris_pdf": "IR51RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR51RIS.pdf",
+    "official_maps": [
+      "/data/maps/IR51map.pdf"
+    ]
+  },
+  {
+    "ramsar_id": 52,
+    "ris_code": "IR52",
+    "name_en": "Deltas of Rud-e-Gaz and Rud-e-Hara",
+    "name_fa": "دلتای رود گز و رود حرا",
+    "lat": 26.666667,
+    "lon": 57.333333,
+    "area_ha": 15000,
+    "elev_min_m": 0,
+    "elev_max_m": 0,
+    "montreux_listed": false,
+    "geometry_source": "RSIS Centroid + Official Area Buffer (Pending Exact Polygon)",
+    "is_exact_boundary": false,
+    "v_idris": null,
+    "bbox": [
+      57.263872,
+      26.604595,
+      57.402794,
+      26.728739
+    ],
+    "ris_pdf": "IR52RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR52RIS.pdf",
+    "official_maps": [
+      "/data/maps/IR52map.pdf"
+    ]
+  },
+  {
+    "ramsar_id": 53,
+    "ris_code": "IR53",
+    "name_en": "Gavkhouni Lake and marshes of the lower Zaindeh Rud",
+    "name_fa": "تالاب گاوخونی و باتلاق‌های پایین‌دست زاینده‌رود",
+    "lat": 32.333333,
+    "lon": 52.783333,
+    "area_ha": 43000,
+    "elev_min_m": 1470,
+    "elev_max_m": 1470,
+    "montreux_listed": false,
+    "geometry_source": "RSIS Centroid + Official Area Buffer (Pending Exact Polygon)",
+    "is_exact_boundary": false,
+    "v_idris": null,
+    "bbox": [
+      52.658952,
+      32.228237,
+      52.907714,
+      32.438429
+    ],
+    "ris_pdf": "IR53RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR53RIS.pdf",
+    "official_maps": [
+      "/data/maps/IR53map.pdf"
+    ]
+  },
+  {
+    "ramsar_id": 1006,
+    "ris_code": "IR1006",
+    "name_en": "Govater Bay and Hur-e-Bahu",
+    "name_fa": "خلیج گواتر و هور باهو",
+    "lat": 25.166667,
+    "lon": 61.5,
+    "area_ha": 75000,
+    "elev_min_m": 0,
+    "elev_max_m": 50,
+    "montreux_listed": false,
+    "geometry_source": "RSIS Centroid + Official Area Buffer (Pending Exact Polygon)",
+    "is_exact_boundary": false,
+    "v_idris": null,
+    "bbox": [
+      61.346645,
+      25.027869,
+      61.653355,
+      25.305465
+    ],
+    "ris_pdf": "IR1006RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR1006RIS.pdf",
+    "official_maps": [
+      "/data/maps/IR1006map.pdf"
+    ]
+  },
+  {
+    "ramsar_id": 1015,
+    "ris_code": "IR1015",
+    "name_en": "Sheedvar Island",
+    "name_fa": "جزیره شیدور",
+    "lat": 26.8,
+    "lon": 53.4,
+    "area_ha": 870,
+    "elev_min_m": 0,
+    "elev_max_m": 8,
+    "montreux_listed": false,
+    "geometry_source": "RSIS Centroid + Official Area Buffer (Pending Exact Polygon)",
+    "is_exact_boundary": false,
+    "v_idris": null,
+    "bbox": [
+      53.383252,
+      26.785051,
+      53.416748,
+      26.814949
+    ],
+    "ris_pdf": "IR1015RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR1015RIS.pdf",
+    "official_maps": [
+      "/data/maps/IR1015map.pdf"
+    ]
+  },
+  {
+    "ramsar_id": 1109,
+    "ris_code": "IR1109",
+    "name_en": "Gomishan Lagoon",
+    "name_fa": "تالاب گمیشان",
+    "lat": 37.195808,
+    "lon": 53.983491,
+    "area_ha": 17700,
+    "elev_min_m": -27,
+    "elev_max_m": -27,
+    "montreux_listed": false,
+    "geometry_source": "Official RSIS Vector Shapefile",
+    "is_exact_boundary": true,
+    "v_idris": 199,
+    "bbox": [
+      53.91054,
+      36.980677,
+      54.049877,
+      37.336596
+    ],
+    "ris_pdf": "IR1109RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR1109RIS.pdf",
+    "official_maps": [
+      "/data/maps/IR1109map1.pdf"
+    ]
+  },
+  {
+    "ramsar_id": 1308,
+    "ris_code": "IR1308",
+    "name_en": "Fereydoon Kenar, Ezbaran & Sorkh Ruds Ab-Bandans",
+    "name_fa": "آب‌بندان‌های فریدون‌کنار، ازباران و سرخرود",
+    "lat": 36.668283,
+    "lon": 52.530905,
+    "area_ha": 5427,
+    "elev_min_m": -23,
+    "elev_max_m": -23,
+    "montreux_listed": false,
+    "geometry_source": "Official RSIS Vector Shapefile",
+    "is_exact_boundary": true,
+    "v_idris": 200,
+    "bbox": [
+      52.43603,
+      36.635837,
+      52.606796,
+      36.694458
+    ],
+    "ris_pdf": "IR1308RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR1308RIS.pdf",
+    "official_maps": [
+      "/data/maps/IR1308map.pdf"
+    ]
+  },
+  {
+    "ramsar_id": 1939,
+    "ris_code": "IR1939",
+    "name_en": "Choghakhor Wetland",
+    "name_fa": "تالاب چغاخور",
+    "lat": 31.916667,
+    "lon": 50.9,
+    "area_ha": 1687,
+    "elev_min_m": 2100,
+    "elev_max_m": 2100,
+    "montreux_listed": false,
+    "geometry_source": "RSIS Centroid + Official Area Buffer (Pending Exact Polygon)",
+    "is_exact_boundary": false,
+    "v_idris": null,
+    "bbox": [
+      50.875476,
+      31.89585,
+      50.924524,
+      31.937484
+    ],
+    "ris_pdf": "IR1939RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR1939RIS.pdf",
+    "official_maps": [
+      "/data/maps/IR1939map.pdf"
+    ]
+  },
+  {
+    "ramsar_id": 1940,
+    "ris_code": "IR1940",
+    "name_en": "Kanibarazan Wetland",
+    "name_fa": "تالاب کانی‌برازان",
+    "lat": 36.999191,
+    "lon": 45.768822,
+    "area_ha": 927,
+    "elev_min_m": 1275,
+    "elev_max_m": 1275,
+    "montreux_listed": false,
+    "geometry_source": "Official RSIS Vector Shapefile",
+    "is_exact_boundary": true,
+    "v_idris": 1928,
+    "bbox": [
+      45.74748,
+      36.981351,
+      45.80612,
+      37.021891
+    ],
+    "ris_pdf": "IR1940RIS.pdf",
+    "ris_pdf_available": false,
+    "ris_pdf_url": null,
+    "official_maps": [
+      "/data/maps/IR1940map.pdf"
+    ]
+  },
+  {
+    "ramsar_id": 2369,
+    "ris_code": "IR2369",
+    "name_en": "Zarivar",
+    "name_fa": "تالاب زریوار",
+    "lat": 35.542121,
+    "lon": 46.125553,
+    "area_ha": 2185.58,
+    "elev_min_m": 1200,
+    "elev_max_m": 2502,
+    "montreux_listed": false,
+    "geometry_source": "Official RSIS Vector Shapefile",
+    "is_exact_boundary": true,
+    "v_idris": 25563784,
+    "bbox": [
+      46.103304,
+      35.509905,
+      46.1551,
+      35.586036
+    ],
+    "ris_pdf": "IR2369RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR2369RIS.pdf",
+    "official_maps": [
+      "/data/maps/IR2369_map180520_1.png"
+    ]
+  },
+  {
+    "ramsar_id": 2539,
+    "ris_code": "IR2539",
+    "name_en": "Barm Alvan",
+    "name_fa": "تالاب برم الوان",
+    "lat": 31.010192,
+    "lon": 50.241123,
+    "area_ha": 20,
+    "elev_min_m": 1090,
+    "elev_max_m": 1195,
+    "montreux_listed": false,
+    "geometry_source": "RSIS Centroid + Official Area Buffer (Pending Exact Polygon)",
+    "is_exact_boundary": false,
+    "v_idris": null,
+    "bbox": [
+      50.238478,
+      31.007925,
+      50.243768,
+      31.012459
+    ],
+    "ris_pdf": "IR2539RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR2539RIS.pdf",
+    "official_maps": []
+  },
+  {
+    "ramsar_id": 2558,
+    "ris_code": "IR2558",
+    "name_en": "Gandoman",
+    "name_fa": "تالاب گندمان",
+    "lat": 31.837169,
+    "lon": 51.099501,
+    "area_ha": 1070,
+    "elev_min_m": 2207,
+    "elev_max_m": 2229,
+    "montreux_listed": false,
+    "geometry_source": "Official RSIS Vector Shapefile",
+    "is_exact_boundary": true,
+    "v_idris": 47382230,
+    "bbox": [
+      51.076142,
+      31.813378,
+      51.132081,
+      31.862885
+    ],
+    "ris_pdf": "IR2558RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR2558RIS.pdf",
+    "official_maps": [
+      "/data/maps/IR2558_map240827.jpg"
+    ]
+  },
+  {
+    "ramsar_id": 2601,
+    "ris_code": "IR2601",
+    "name_en": "Gahar Lake",
+    "name_fa": "دریاچه گهر",
+    "lat": 33.305433,
+    "lon": 49.281028,
+    "area_ha": 80,
+    "elev_min_m": 2320,
+    "elev_max_m": 2350,
+    "montreux_listed": false,
+    "geometry_source": "Official RSIS Vector Shapefile",
+    "is_exact_boundary": true,
+    "v_idris": 47474649,
+    "bbox": [
+      49.273742,
+      33.302069,
+      49.294439,
+      33.31175
+    ],
+    "ris_pdf": "IR2601RIS.pdf",
+    "ris_pdf_available": true,
+    "ris_pdf_url": "/data/documents/ris/IR2601RIS.pdf",
+    "official_maps": [
+      "/data/maps/IR2601_map260714.jpg"
+    ]
+  }
+]
