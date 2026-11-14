@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TerraScope | دیده‌بان تالاب‌های ایران در کنوانسیون رامسر</title>
+  <!-- Google Fonts: Vazirmatn (FA) & Inter (EN) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Vazirmatn:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body dir="rtl">
+
+  <!-- Top Navigation Header -->
+  <header class="topbar">
+    <div class="brand-wrap">
+      <div class="brand-logo">TS</div>
+      <div class="brand-title">
+        <h1 id="uiAppTitle">TerraScope | دیده‌بان تالاب‌های ایران در کنوانسیون رامسر</h1>
+        <p id="uiAppSubtitle">پایش ماهواره‌ای زنده (Sentinel-2 STAC)، پایگاه اسناد کنوانسیون رامسر و موتور هوش مصنوعی اکولوژیک</p>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <button class="btn" id="btnOpenCompare">📊 <span id="lblCompareBtn">ماتریس مقایسه ۲۸ تالاب</span></button>
+      <button class="btn" id="btnOpenArchive">📚 <span id="lblArchiveBtn">مخزن اسناد رامسر و COP (۵۰ سند)</span></button>
+      <a class="btn" id="btnDownloadFactsheet" href="/api/report/38" target="_blank">📄 <span id="lblFactsheetBtn">گزارش علمی PDF تالاب (Factsheet)</span></a>
+      <button class="btn btn-ai" id="btnTriggerEO">🛰️ <span id="lblRefreshBtn">به‌روزرسانی زنده ماهواره‌ای تالاب</span></button>
+      <button class="btn btn-primary" id="btnLangToggle">EN / فارسی</button>
+    </div>
+  </header>
+
+  <!-- National KPI Strip -->
+  <section class="kpi-strip">
+    <div class="kpi-card">
+      <span class="kpi-label" id="kpiLblSites">کل تالاب‌های بین‌المللی رامسر ایران</span>
+      <div class="kpi-value" id="kpiValSites">28</div>
+      <span class="kpi-sub" id="kpiSubArea">مساحت کل: ۱,۴۸۸,۵۲۴ هکتار</span>
+    </div>
+    <div class="kpi-card kpi-critical">
+      <span class="kpi-label" id="kpiLblMontreux">وضعیت بحرانی / فهرست مونترو (ماده ۳.۲)</span>
+      <div class="kpi-value" id="kpiValCritical">-</div>
+      <span class="kpi-sub" id="kpiSubMontreux">تغییر ماهیت اکولوژیک ثبت‌شده</span>
+    </div>
+    <div class="kpi-card kpi-purple">
+      <span class="kpi-label" id="kpiLblLiveEO">تالاب‌های دارای رصد زنده Sentinel-2</span>
+      <div class="kpi-value" id="kpiValLiveEO">-</div>
+      <span class="kpi-sub" id="kpiSubLiveEO">پردازش ابری On-the-Fly بدون نیاز به دانلود</span>
+    </div>
+    <div class="kpi-card kpi-emerald">
+      <span class="kpi-label" id="kpiLblDocs">اسناد رسمی بارگذاری‌شده (RIS & COP)</span>
+      <div class="kpi-value" id="kpiValDocs">50</div>
+      <span class="kpi-sub" id="kpiSubDocs">شامل ۲۸ پرونده RIS + گزارش‌های ملی COP7-COP15</span>
+    </div>
+    <div class="kpi-card kpi-amber">
+      <span class="kpi-label" id="kpiLblQueue">وضعیت موتور پردازش و کش سرور</span>
+      <div class="kpi-value" id="kpiValQueue">آماده (RAM Cache)</div>
+      <span class="kpi-sub" id="kpiSubQueue">پاسخگویی زیر ۲ میلی‌ثانیه</span>
+    </div>
+  </section>
+
+  <!-- Main 3-Column Scientific Workspace -->
+  <main class="workspace">
+
+    <!-- Column 1: 28 Ramsar Wetlands Explorer -->
+    <aside class="panel">
+      <div class="panel-header">
+        <div class="panel-title">🌿 <span id="lblWetlandListTitle">فهرست ۲۸ تالاب کنوانسیون رامسر</span></div>
+        <span class="badge badge-STABLE" id="wetlandCountBadge">28</span>
+      </div>
+      <div class="filter-box">
+        <input type="text" id="searchInput" class="search-input" placeholder="جستجوی نام تالاب، استان یا کد رامسر..." />
+        <select id="statusFilter" class="select-input">
+          <option value="ALL" id="optAll">همه وضعیت‌های اکولوژیک (۲۸ تالاب)</option>
+          <option value="CRITICAL" id="optCritical">بحرانی / تغییر ماهیت (CRITICAL)</option>
+          <option value="STRESSED" id="optStressed">تنش آبی و اکولوژیک شدید (STRESSED)</option>
+          <option value="MODERATE" id="optModerate">نیازمند پایش (MODERATE)</option>
+          <option value="STABLE" id="optStable">پایدار نسبی (STABLE)</option>
+          <option value="LIVE_EO" id="optLiveEO">دارای تصویر ماهواره‌ای زنده Sentinel-2</option>
+        </select>
+      </div>
+      <div class="wetland-list" id="wetlandListContainer"></div>
+    </aside>
+
+    <!-- Column 2: Interactive GIS Map & Time-Series Charts -->
+    <section class="center-col">
+      <div class="panel">
+        <div class="panel-header">
+          <div class="panel-title">🗺️ <span id="lblMapTitle">نقشه پایش ماهواره‌ای و مرز تالاب‌های رامسر</span></div>
+          <div style="font-size:0.76rem; color:var(--text-muted);" id="selectedCoordsLabel">WGS84</div>
+        </div>
+        <div id="mapContainer"></div>
+        <div class="map-legend">
+          <div class="legend-item"><span class="dot" style="background:#f43f5e;"></span> <span id="legCrit">بحرانی (Risk ≥ 70)</span></div>
+          <div class="legend-item"><span class="dot" style="background:#f59e0b;"></span> <span id="legStress">تنش بالا (50–69)</span></div>
+          <div class="legend-item"><span class="dot" style="background:#3b82f6;"></span> <span id="legMod">نیازمند پایش (35–49)</span></div>
+          <div class="legend-item"><span class="dot" style="background:#10b981;"></span> <span id="legStab">پایدار (&lt; 35)</span></div>
+          <div class="legend-item"><span class="dot" style="background:#a855f7; border:2px solid #fff;"></span> <span id="legBox">کادر پایش ماهواره‌ای Sentinel-2</span></div>
+        </div>
+      </div>
+
+      <!-- Time-Series & Spectral Indices Charts -->
+      <div class="charts-grid">
+        <div class="panel">
+          <div class="panel-header">
+            <div class="panel-title">📈 <span id="lblChart1Title">روند طبقات پوشش سطحی (آب، گیاه، بستر خشک %)</span></div>
+          </div>
+          <div class="chart-box">
+            <canvas id="surfaceChart"></canvas>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="panel-header">
+            <div class="panel-title">🛰️ <span id="lblChart2Title">شاخص‌های طیفی ماهواره‌ای (NDWI & NDVI) و ریسک</span></div>
+          </div>
+          <div class="chart-box">
+            <canvas id="spectralChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Column 3: Local Ecological AI Panel & Official Ramsar Dossier -->
+    <aside class="right-panel">
+      <div class="panel">
+        <div class="panel-header">
+          <div class="panel-title">🧠 <span id="lblAiPanelTitle">تحلیل اکولوژیک هوش مصنوعی محلی (TerraScope AI)</span></div>
+          <span class="badge badge-EO" id="aiStatusBadge">-</span>
+        </div>
+
+        <div class="ai-box">
+          <div class="ai-header">
+            <div>
+              <h3 id="selectedWetlandTitle" style="font-size:1.05rem; color:#fff;">-</h3>
+              <span id="selectedWetlandSub" style="font-size:0.76rem; color:var(--accent-cyan);">-</span>
+            </div>
+            <div class="risk-meter">
+              <div class="risk-circle" id="aiRiskCircle">--</div>
+            </div>
+          </div>
+
+          <div class="metrics-mini-grid">
+            <div class="metric-pill">
+              <span id="lblMetricWater">پهنه آبی باز</span>
+              <strong id="valMetricWater" style="color:#38bdf8;">-</strong>
+            </div>
+            <div class="metric-pill">
+              <span id="lblMetricVeg">پوشش گیاهی/نیزار</span>
+              <strong id="valMetricVeg" style="color:#34d399;">-</strong>
+            </div>
+            <div class="metric-pill">
+              <span id="lblMetricNdwi">شاخص NDWI / NDVI</span>
+              <strong id="valMetricNdwi" style="color:#c4b5fd;">-</strong>
+            </div>
+          </div>
+
+          <div class="ai-summary-text" id="aiSummaryText">
+            در حال بارگذاری تحلیل هوش مصنوعی...
+          </div>
+
+          <div class="ai-rec-box">
+            <strong id="lblAiRecTitle">توصیه مدیریتی و حفاظتی:</strong>
+            <div id="aiRecText" style="margin-top:0.25rem;">-</div>
+          </div>
+        </div>
+
+        <!-- Official Ramsar Metadata Table -->
+        <div class="panel-header" style="border-top:1px solid var(--border-color);">
+          <div class="panel-title">📋 <span id="lblMetaTitle">شناسنامه رسمی کنوانسیون رامسر (RIS)</span></div>
+        </div>
+        <table class="meta-table">
+          <tbody>
+            <tr><td id="mLblId">شماره سایت رامسر</td><td id="mValId">-</td></tr>
+            <tr><td id="mLblProv">استان / موقعیت</td><td id="mValProv">-</td></tr>
+            <tr><td id="mLblArea">مساحت ثبت‌شده (هکتار)</td><td id="mValArea">-</td></tr>
+            <tr><td id="mLblDate">تاریخ ثبت در رامسر</td><td id="mValDate">-</td></tr>
+            <tr><td id="mLblElev">ارتفاع از سطح دریا (متر)</td><td id="mValElev">-</td></tr>
+            <tr><td id="mLblMontreux">وضعیت فهرست مونترو (ماده ۳.۲)</td><td id="mValMontreux">-</td></tr>
+            <tr><td id="mLblMgmt">برنامه مدیریتی مصوب</td><td id="mValMgmt">-</td></tr>
+            <tr><td id="mLblThreats">عوامل تهدیدکننده ثبت‌شده</td><td id="mValThreats">-</td></tr>
+          </tbody>
+        </table>
+
+        <!-- Site Specific Official PDFs -->
+        <div class="panel-header" style="border-top:1px solid var(--border-color);">
+          <div class="panel-title">📄 <span id="lblSiteDocsTitle">اسناد رسمی و فرم RIS این تالاب</span></div>
+        </div>
+        <div class="docs-list" id="siteDocsContainer"></div>
+      </div>
+    </aside>
+  </main>
+
+  <!-- Modal 1: Full 50 Documents Archive -->
+  <div class="modal-backdrop" id="archiveModal">
+    <div class="modal-content">
+      <div class="panel-header">
+        <div class="panel-title">📚 <span id="modalArchiveTitle">مخزن کامل اسناد کنوانسیون رامسر ایران (RIS، گزارش‌های ملی COP و برنامه‌های مدیریتی)</span></div>
+        <button class="btn" id="btnCloseArchive">✕</button>
+      </div>
+      <div class="modal-body">
+        <input type="text" id="docSearchInput" class="search-input" style="margin-bottom:0.85rem;" placeholder="جستجو در نام فایل، کد تالاب یا دسته سند (RIS, COP, Management Plan)..." />
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th id="thDocName">نام فایل سند</th>
+              <th id="thDocCat">دسته‌بندی</th>
+              <th id="thDocSite">کد رامسر</th>
+              <th id="thDocPages">تعداد صفحات</th>
+              <th id="thDocAction">دریافت / مشاهده</th>
+            </tr>
+          </thead>
+          <tbody id="archiveTableBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: 28 Wetlands Scientific Comparison Matrix -->
+  <div class="modal-backdrop" id="compareModal">
+    <div class="modal-content">
+      <div class="panel-header">
+        <div class="panel-title">📊 <span id="modalCompareTitle">ماتریس مقایسه علمی و وضعیت اکولوژیک ۲۸ تالاب رامسر ایران</span></div>
+        <button class="btn" id="btnCloseCompare">✕</button>
+      </div>
+      <div class="modal-body">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Ramsar #</th>
+              <th id="thCmpName">نام تالاب</th>
+              <th id="thCmpProv">استان</th>
+              <th id="thCmpArea">مساحت (ha)</th>
+              <th id="thCmpRisk">امتیاز ریسک AI</th>
+              <th id="thCmpStatus">وضعیت اکولوژیک</th>
+              <th id="thCmpWater">آب باز (%)</th>
+              <th id="thCmpVeg">پوشش گیاهی (%)</th>
+            </tr>
+          </thead>
+          <tbody id="compareTableBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer-bar">
+    <span><strong>TerraScope</strong> | طراحی و توسعه: علیرضا فاضلی ثانی (<a href="mailto:alirezafazeli@live.com">alirezafazeli@live.com</a> | <a href="https://github.com/fazeli1977-dot" target="_blank">GitHub</a>) — معماری داده‌محور، رایگان و منبع‌باز بر پایه استانداردهای کنوانسیون رامسر</span>
+  </footer>
+
+  <!-- Leaflet & Chart.js CDN -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

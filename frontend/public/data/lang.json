@@ -1,0 +1,16 @@
+﻿{
+  "en": {
+    "dashboard_title": "TerraScope | Iran Ramsar Wetlands Ecological Observatory",
+    "wetlands": {
+      "IR36": { "name": "Miankaleh Peninsula", "ecological_status": "Vulnerable" },
+      "IR38": { "name": "Lake Urmia", "ecological_status": "Critical" }
+    }
+  },
+  "fa": {
+    "dashboard_title": "TerraScope | دیده‌بان تالاب‌های ایران در کنوانسیون رامسر",
+    "wetlands": {
+      "IR36": { "name": "شبه‌جزیره میانکاله", "ecological_status": "آسیب‌پذیر" },
+      "IR38": { "name": "دریاچه ارومیه", "ecological_status": "بحرانی" }
+    }
+  }
+}

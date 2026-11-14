@@ -1,0 +1,617 @@
+﻿<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TerraScope | دیده‌بان تالاب‌های ایران در کنوانسیون رامسر</title>
+    <!-- Leaflet & Chart.js CDNs -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700;800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-main: #07111e;
+            --bg-card: #0e1e33;
+            --bg-card-hover: #142944;
+            --border: #1e3a5f;
+            --accent: #00d4ff;
+            --accent-green: #10b981;
+            --accent-warn: #f59e0b;
+            --accent-danger: #ef4444;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background: var(--bg-main);
+            color: var(--text-main);
+            font-family: 'Vazirmatn', 'Inter', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+        }
+        header {
+            background: linear-gradient(90deg, #06101d 0%, #0d233d 50%, #06101d 100%);
+            border-bottom: 1px solid var(--border);
+            padding: 12px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        .brand { display: flex; align-items: center; gap: 12px; }
+        .brand-badge {
+            width: 42px; height: 42px; border-radius: 10px;
+            background: linear-gradient(135deg, #00d4ff, #0284c7);
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 800; font-size: 1.2rem; color: #04101c;
+            box-shadow: 0 0 15px rgba(0, 212, 255, 0.35);
+        }
+        .brand h1 { font-size: 1.15rem; font-weight: 800; color: #fff; }
+        .brand p { font-size: 0.78rem; color: var(--text-muted); }
+        .kpi-bar { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+        .kpi-pill {
+            background: rgba(14, 30, 51, 0.9);
+            border: 1px solid var(--border);
+            padding: 6px 14px;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            display: flex; align-items: center; gap: 8px;
+        }
+        .kpi-pill strong { color: var(--accent); font-size: 0.95rem; }
+        .btn {
+            background: #163252;
+            color: #fff;
+            border: 1px solid #28527a;
+            padding: 8px 14px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 0.82rem;
+            font-weight: 600;
+            transition: all 0.2s;
+            text-decoration: none;
+            display: inline-flex; align-items: center; gap: 6px;
+        }
+        .btn:hover { background: #1e4570; border-color: var(--accent); }
+        .btn-primary {
+            background: linear-gradient(135deg, #0284c7, #00d4ff);
+            color: #04101c;
+            border: none;
+            font-weight: 700;
+        }
+        .main-grid {
+            display: grid;
+            grid-template-columns: 330px 1fr 430px;
+            gap: 14px;
+            padding: 14px;
+            flex: 1;
+            min-height: calc(100vh - 75px);
+        }
+        @media (max-width: 1350px) {
+            .main-grid { grid-template-columns: 290px 1fr; }
+            .right-panel { grid-column: 1 / -1; }
+        }
+        .panel {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .panel-header {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border);
+            background: rgba(7, 17, 30, 0.55);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 700;
+            font-size: 0.92rem;
+        }
+        .search-box {
+            padding: 10px 12px;
+            border-bottom: 1px solid var(--border);
+            display: flex; flex-direction: column; gap: 8px;
+        }
+        .search-box input, .search-box select {
+            width: 100%;
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            background: #071322;
+            color: #fff;
+            font-family: inherit;
+            font-size: 0.83rem;
+        }
+        .site-list {
+            flex: 1;
+            overflow-y: auto;
+            max-height: calc(100vh - 230px);
+            padding: 8px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .site-item {
+            padding: 10px 12px;
+            border-radius: 8px;
+            background: rgba(7, 17, 30, 0.45);
+            border: 1px solid transparent;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+        .site-item:hover { background: var(--bg-card-hover); border-color: #2b547e; }
+        .site-item.active {
+            background: rgba(0, 212, 255, 0.12);
+            border-color: var(--accent);
+        }
+        .site-item-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
+        .site-code {
+            font-size: 0.72rem; font-weight: 700;
+            padding: 2px 7px; border-radius: 4px;
+            background: #173658; color: var(--accent);
+        }
+        .badge-montreux {
+            background: rgba(239, 68, 68, 0.2);
+            color: #fca5a5;
+            border: 1px solid rgba(239, 68, 68, 0.5);
+            font-size: 0.68rem; padding: 1px 6px; border-radius: 4px;
+        }
+        .badge-exact {
+            background: rgba(16, 185, 129, 0.18);
+            color: #6ee7b7;
+            font-size: 0.68rem; padding: 1px 6px; border-radius: 4px;
+        }
+        .center-col { display: flex; flex-direction: column; gap: 14px; }
+        #map { width: 100%; height: 470px; border-radius: 0 0 12px 12px; background: #040b14; }
+        .charts-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+            flex: 1;
+        }
+        .chart-box { padding: 12px; height: 250px; position: relative; }
+        .right-panel {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            max-height: calc(100vh - 105px);
+            overflow-y: auto;
+            padding-right: 2px;
+        }
+        .ai-box {
+            background: linear-gradient(145deg, #0b2239 0%, #091829 100%);
+            border: 1px solid #00d4ff55;
+            border-radius: 10px;
+            padding: 14px;
+            margin: 12px;
+            line-height: 1.75;
+            font-size: 0.85rem;
+            box-shadow: inset 0 0 20px rgba(0, 212, 255, 0.06);
+        }
+        .ai-header {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-bottom: 10px; padding-bottom: 8px;
+            border-bottom: 1px dashed #1e4268;
+        }
+        .risk-badge {
+            padding: 3px 10px; border-radius: 20px; font-weight: 700; font-size: 0.75rem;
+        }
+        .risk-CRITICAL { background: rgba(239, 68, 68, 0.25); color: #fca5a5; border: 1px solid #ef4444; }
+        .risk-WARNING { background: rgba(245, 158, 11, 0.25); color: #fcd34d; border: 1px solid #f59e0b; }
+        .risk-STABLE { background: rgba(16, 185, 129, 0.25); color: #6ee7b7; border: 1px solid #10b981; }
+        .meta-grid {
+            display: grid; grid-template-columns: 1fr 1fr; gap: 8px; padding: 0 12px 12px;
+        }
+        .meta-card {
+            background: rgba(7, 17, 30, 0.6);
+            border: 1px solid var(--border);
+            padding: 8px 10px; border-radius: 8px;
+            font-size: 0.78rem;
+        }
+        .meta-card span { display: block; color: var(--text-muted); font-size: 0.7rem; margin-bottom: 2px; }
+        .meta-card strong { color: #fff; font-size: 0.88rem; }
+        .doc-section { padding: 0 12px 14px; display: flex; flex-direction: column; gap: 8px; }
+        .doc-links { display: flex; flex-wrap: wrap; gap: 8px; }
+        .excerpt-box {
+            background: #071220; border: 1px solid var(--border);
+            border-radius: 8px; padding: 10px; font-size: 0.78rem;
+            color: #cbd5e1; max-height: 150px; overflow-y: auto; line-height: 1.6;
+            direction: ltr; text-align: left;
+        }
+        .modal-backdrop {
+            display: none; position: fixed; inset: 0;
+            background: rgba(0,0,0,0.75); z-index: 9999;
+            align-items: center; justify-content: center; padding: 20px;
+        }
+        .modal {
+            background: var(--bg-card); border: 1px solid var(--accent);
+            border-radius: 12px; width: 100%; max-width: 680px;
+            max-height: 85vh; overflow-y: auto; padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="brand">
+        <div class="brand-badge">TS</div>
+        <div>
+            <h1 id="app-title">TerraScope | دیده‌بان تالاب‌های ایران در کنوانسیون رامسر</h1>
+            <p id="app-subtitle">پایش ماهواره‌ای Sentinel-2، مرزهای رسمی RSIS و موتور هوش مصنوعی اکولوژیک (ماده ۳.۲ رامسر)</p>
+        </div>
+    </div>
+
+    <div class="kpi-bar">
+        <div class="kpi-pill"><span data-i18n="kpi_sites">تالاب‌های رامسر:</span> <strong id="kpi-total">28</strong></div>
+        <div class="kpi-pill"><span data-i18n="kpi_area">مساحت کل:</span> <strong id="kpi-area">1,488,624 ha</strong></div>
+        <div class="kpi-pill"><span data-i18n="kpi_montreux">فهرست مونترو:</span> <strong id="kpi-montreux" style="color:#f87171;">6</strong></div>
+        <div class="kpi-pill"><span data-i18n="kpi_docs">اسناد RIS و COP:</span> <strong id="kpi-docs">46 PDF</strong></div>
+        <button class="btn" onclick="openNationalModal()">📚 آرشیو ملی رامسر و بروزرسانی</button>
+        <button class="btn btn-primary" onclick="printScientificReport()">🖨️ گزارش علمی (PDF Factsheet)</button>
+        <button class="btn" id="lang-btn" onclick="toggleLanguage()">🌐 EN</button>
+    </div>
+</header>
+
+<div class="main-grid">
+    <!-- ستون سمت راست: فهرست ۲۸ تالاب رامسر -->
+    <div class="panel">
+        <div class="panel-header">
+            <span id="list-title">📍 فهرست ۲۸ تالاب بین‌المللی رامسر</span>
+            <span id="list-count" style="color:var(--accent);font-size:0.8rem;">28 سایت</span>
+        </div>
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="جستجوی نام تالاب یا کد رامسر (مثلاً انزلی، IR40)..." oninput="renderSiteList()" />
+            <select id="filter-select" onchange="renderSiteList()">
+                <option value="ALL">همه ۲۸ تالاب کنوانسیون رامسر</option>
+                <option value="MONTREUX">⚠️ تالاب‌های فهرست مونترو (بحرانی)</option>
+                <option value="EXACT">📐 دارای شیپ‌فایل دقیق برداری (RSIS Polygon)</option>
+            </select>
+        </div>
+        <div class="site-list" id="site-list"></div>
+    </div>
+
+    <!-- ستون میانی: نقشه ماهواره‌ای و نمودارهای سری زمانی -->
+    <div class="center-col">
+        <div class="panel">
+            <div class="panel-header">
+                <span id="map-title">🛰️ نقشه مرزهای رسمی رامسر (RSIS) و پایش ماهواره‌ای</span>
+                <div style="display:flex;gap:8px;">
+                    <button class="btn" style="padding:4px 10px;font-size:0.75rem;" onclick="resetMapView()">نمایش کل ایران</button>
+                </div>
+            </div>
+            <div id="map"></div>
+        </div>
+
+        <div class="charts-row">
+            <div class="panel">
+                <div class="panel-header">
+                    <span>📈 سری زمانی شاخص‌های ماهواره‌ای (NDWI & NDVI)</span>
+                    <span style="font-size:0.72rem;color:var(--text-muted);">Sentinel-2 (2019–2026)</span>
+                </div>
+                <div class="chart-box"><canvas id="spectralChart"></canvas></div>
+            </div>
+            <div class="panel">
+                <div class="panel-header">
+                    <span>💧 تغییرات پهنه آبی فعال (ha) و دمای سطحی (LST)</span>
+                    <span style="font-size:0.72rem;color:var(--text-muted);">Copernicus & MODIS</span>
+                </div>
+                <div class="chart-box"><canvas id="hydroChart"></canvas></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ستون سمت چپ: تحلیل اکولوژیک هوش مصنوعی محلی و اسناد رسمی تالاب -->
+    <div class="panel right-panel">
+        <div class="panel-header">
+            <span id="detail-title">🧠 تحلیل اکولوژیک و نظر هوش مصنوعی محلی</span>
+            <span id="detail-code" class="site-code">IR40</span>
+        </div>
+
+        <!-- کارت نظر هوش مصنوعی محلی در بخش تحلیل اکولوژیک -->
+        <div class="ai-box">
+            <div class="ai-header">
+                <strong>🤖 موتور هوش مصنوعی اکولوژیک (TerraScope AI)</strong>
+                <span id="ai-risk-badge" class="risk-badge risk-CRITICAL">CRITICAL</span>
+            </div>
+            <div id="ai-narrative" style="white-space: pre-line;">در حال بارگذاری تحلیل اکولوژیک...</div>
+        </div>
+
+        <!-- متادیتای علمی تالاب -->
+        <div class="meta-grid">
+            <div class="meta-card"><span>مساحت ثبت‌شده رامسر</span><strong id="meta-area">-</strong></div>
+            <div class="meta-card"><span>پهنه آبی فعال فعلی (EO)</span><strong id="meta-water" style="color:var(--accent);">-</strong></div>
+            <div class="meta-card"><span>وضعیت فهرست مونترو</span><strong id="meta-montreux">-</strong></div>
+            <div class="meta-card"><span>نوع مرز مکانی</span><strong id="meta-boundary">-</strong></div>
+            <div class="meta-card"><span>تراز ارتفاعی (متر)</span><strong id="meta-elev">-</strong></div>
+            <div class="meta-card"><span>شاخص شوری سطحی (NDSI)</span><strong id="meta-salinity">-</strong></div>
+        </div>
+
+        <!-- اسناد رسمی تالاب از سایت رامسر -->
+        <div class="doc-section">
+            <div style="font-weight:700;font-size:0.86rem;color:var(--accent);">📄 مستندات رسمی کنوانسیون رامسر (RIS & Maps)</div>
+            <div class="doc-links" id="site-doc-links"></div>
+
+            <div style="font-weight:700;font-size:0.82rem;margin-top:6px;">🌿 ویژگی‌های اکولوژیک و هیدرولوژیک استخراج‌شده از PDF شناسنامه (RIS):</div>
+            <div class="excerpt-box" id="ris-excerpt">Loading official RIS document text...</div>
+
+            <div style="margin-top:8px;border-top:1px solid var(--border);padding-top:10px;">
+                <div style="font-weight:700;font-size:0.82rem;margin-bottom:6px;">🔄 بروزرسانی میدانی / مشاهدات جدید پژوهشگر برای این تالاب:</div>
+                <textarea id="custom-note-input" rows="2" style="width:100%;background:#071322;color:#fff;border:1px solid var(--border);border-radius:6px;padding:6px;font-family:inherit;font-size:0.78rem;" placeholder="ثبت مشاهدات جدید اکولوژیک، حق‌آبه یا وضعیت حفاظتی جهت بازتحلیل هوش مصنوعی..."></textarea>
+                <button class="btn btn-primary" style="margin-top:6px;width:100%;justify-content:center;" onclick="syncWetlandData()">⚡ ذخیره و بازتحلیل با هوش مصنوعی محلی</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- مودال آرشیو گزارش‌های ملی COP کنوانسیون رامسر -->
+<div class="modal-backdrop" id="national-modal">
+    <div class="modal">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;border-bottom:1px solid var(--border);padding-bottom:10px;">
+            <h3>📚 آرشیو کامل گزارش‌های ملی ایران در کنوانسیون رامسر (COP7–COP15 & Management Plans)</h3>
+            <button class="btn" onclick="closeNationalModal()">✖ بستن</button>
+        </div>
+        <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:12px;">
+            تمامی اسناد زیر از آرشیو رسمی کنوانسیون رامسر استخراج و در سرور محلی شما بارگذاری شده‌اند:
+        </p>
+        <div id="national-reports-list" style="display:grid;grid-template-columns:1fr 1fr;gap:8px;direction:ltr;text-align:left;"></div>
+    </div>
+</div>
+
+<script>
+let lang = 'fa';
+let allSites = [];
+let nationalReports = [];
+let geojsonLayer = null;
+let selectedId = 40; // پیش‌فرض: تالاب بین‌المللی انزلی (IR40)
+let map, spectralChart, hydroChart;
+
+function initMap() {
+    map = L.map('map', { zoomControl: true }).setView([32.5, 53.5], 5);
+
+    const darkBase = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; OpenStreetMap & CartoDB'
+    });
+    const satelliteBase = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri — Sentinel-2 / Earthstar Geographics'
+    });
+
+    satelliteBase.addTo(map);
+    L.control.layers({
+        "🛰️ تصویر ماهواره‌ای (Esri / Sentinel-2)": satelliteBase,
+        "🌑 نقشه تیره تحلیلی (Dark GIS)": darkBase
+    }).addTo(map);
+}
+
+async function loadInitialData() {
+    initMap();
+    const [wetRes, geoRes] = await Promise.all([
+        fetch('/api/wetlands').then(r => r.json()),
+        fetch('/api/geojson').then(r => r.json())
+    ]);
+
+    allSites = wetRes.sites || [];
+    nationalReports = wetRes.national_reports || [];
+
+    const totalArea = allSites.reduce((acc, s) => acc + (s.area_ha || 0), 0);
+    const montreuxCount = allSites.filter(s => s.montreux_listed).length;
+    document.getElementById('kpi-total').textContent = allSites.length;
+    document.getElementById('kpi-area').textContent = totalArea.toLocaleString() + ' ha';
+    document.getElementById('kpi-montreux').textContent = montreuxCount;
+
+    renderSiteList();
+    renderGeoJSON(geoRes);
+    selectWetland(selectedId);
+}
+
+function renderGeoJSON(geojsonData) {
+    if (geojsonLayer) map.removeLayer(geojsonLayer);
+    geojsonLayer = L.geoJSON(geojsonData, {
+        style: feature => {
+            const p = feature.properties;
+            const isSelected = Number(p.ramsar_id) === Number(selectedId);
+            return {
+                color: isSelected ? '#00d4ff' : (p.montreux_listed ? '#ef4444' : (p.is_exact_boundary ? '#10b981' : '#f59e0b')),
+                weight: isSelected ? 3.5 : 2,
+                fillOpacity: isSelected ? 0.42 : 0.25
+            };
+        },
+        onEachFeature: (feature, layer) => {
+            const p = feature.properties;
+            layer.bindTooltip(`<b>${p.name_fa}</b> (${p.ris_code})<br>${p.name_en}<br>Area: ${Number(p.area_ha).toLocaleString()} ha`);
+            layer.on('click', () => selectWetland(p.ramsar_id));
+        }
+    }).addTo(map);
+}
+
+function renderSiteList() {
+    const q = document.getElementById('search-input').value.trim().toLowerCase();
+    const filter = document.getElementById('filter-select').value;
+    const container = document.getElementById('site-list');
+    container.innerHTML = '';
+
+    const filtered = allSites.filter(s => {
+        const matchText = !q || s.name_fa.toLowerCase().includes(q) || s.name_en.toLowerCase().includes(q) || (`ir${s.ramsar_id}`).includes(q);
+        const matchFilter = filter === 'ALL' || (filter === 'MONTREUX' && s.montreux_listed) || (filter === 'EXACT' && s.is_exact_boundary);
+        return matchText && matchFilter;
+    });
+
+    document.getElementById('list-count').textContent = `${filtered.length} سایت`;
+
+    filtered.forEach(s => {
+        const div = document.createElement('div');
+        div.className = `site-item ${Number(s.ramsar_id) === Number(selectedId) ? 'active' : ''}`;
+        div.onclick = () => selectWetland(s.ramsar_id);
+        div.innerHTML = `
+            <div class="site-item-top">
+                <span class="site-code">IR${s.ramsar_id}</span>
+                <div style="display:flex;gap:4px;">
+                    ${s.montreux_listed ? '<span class="badge-montreux">Montreux</span>' : ''}
+                    ${s.is_exact_boundary ? '<span class="badge-exact">RSIS Vector</span>' : ''}
+                </div>
+            </div>
+            <div style="font-weight:700;font-size:0.86rem;">${lang === 'fa' ? s.name_fa : s.name_en}</div>
+            <div style="font-size:0.74rem;color:var(--text-muted);display:flex;justify-content:space-between;margin-top:3px;">
+                <span>${s.name_en}</span>
+                <span>${Number(s.area_ha).toLocaleString()} ha</span>
+            </div>
+        `;
+        container.appendChild(div);
+    });
+}
+
+async function selectWetland(ramsarId) {
+    selectedId = Number(ramsarId);
+    renderSiteList();
+    if (geojsonLayer) geojsonLayer.setStyle(geojsonLayer.options.style);
+
+    const res = await fetch(`/api/analyze/${selectedId}`).then(r => r.json());
+    const site = res.site;
+    const eo = res.eo_telemetry;
+    const ai = res.ai_assessment;
+    const kb = res.knowledge_base || {};
+
+    // زوم هوشمند نقشه روی پلیگون تالاب انتخاب‌شده
+    if (site.bbox && site.bbox.length === 4) {
+        const [minX, minY, maxX, maxY] = site.bbox;
+        map.flyToBounds([[minY, minX], [maxY, maxX]], { padding: [35, 35], maxZoom: 11, duration: 1.1 });
+    } else {
+        map.flyTo([site.lat, site.lon], 10);
+    }
+
+    document.getElementById('detail-title').textContent = lang === 'fa' ? `🧠 تحلیل اکولوژیک: ${site.name_fa}` : `🧠 Ecological AI: ${site.name_en}`;
+    document.getElementById('detail-code').textContent = `IR${site.ramsar_id}`;
+
+    const badge = document.getElementById('ai-risk-badge');
+    badge.className = `risk-badge risk-${ai.risk_level}`;
+    badge.textContent = `${ai.risk_level} (${ai.risk_score}/100)`;
+
+    let narrative = lang === 'fa' ? ai.ai_narrative_fa : ai.ai_narrative_en;
+    if (site.custom_note_fa) {
+        narrative += `\n\n📌 **یادداشت میدانی پژوهشگر:** ${site.custom_note_fa}`;
+    }
+    document.getElementById('ai-narrative').textContent = narrative;
+
+    document.getElementById('meta-area').textContent = `${Number(site.area_ha).toLocaleString()} ha`;
+    document.getElementById('meta-water').textContent = `${Number(eo.current_water_ha).toLocaleString()} ha (${eo.water_change_8yr_pct}%)`;
+    document.getElementById('meta-montreux').textContent = site.montreux_listed ? '⚠️ ثبت در مونترو (بحرانی)' : '✅ عادی (خارج از مونترو)';
+    document.getElementById('meta-boundary').textContent = site.is_exact_boundary ? 'شیپ‌فایل رسمی RSIS' : 'پلیگون محاسباتی مساحت';
+    document.getElementById('meta-elev').textContent = `${site.elev_min_m} تا ${site.elev_max_m} متر`;
+    document.getElementById('meta-salinity').textContent = `NDSI: ${eo.salinity_index_ndsi}`;
+
+    // لینک‌های دانلود و مشاهده PDF شناسنامه RIS و نقشه‌های رسمی
+    const docLinks = document.getElementById('site-doc-links');
+    docLinks.innerHTML = '';
+    if (site.ris_pdf_url) {
+        docLinks.innerHTML += `<a class="btn btn-primary" href="${site.ris_pdf_url}" target="_blank">📘 شناسنامه رسمی رامسر (IR${site.ramsar_id}RIS.pdf)</a>`;
+    }
+    (site.official_maps || []).forEach((mUrl, idx) => {
+        docLinks.innerHTML += `<a class="btn" href="${mUrl}" target="_blank">🗺️ نقشه رسمی (${idx + 1})</a>`;
+    });
+    docLinks.innerHTML += `<a class="btn" href="/data/geojson/IR${site.ramsar_id}.geojson" target="_blank">📐 دانلود GeoJSON</a>`;
+    docLinks.innerHTML += `<a class="btn" href="https://rsis.ramsar.org/ris/${site.ramsar_id}" target="_blank">🌐 صفحه در RSIS جهانی</a>`;
+
+    document.getElementById('ris-excerpt').textContent = kb.raw_excerpt || ai.ris_extracted_ecology || 'Official RIS summary indexed.';
+    document.getElementById('custom-note-input').value = site.custom_note_fa || '';
+
+    updateCharts(eo);
+}
+
+function updateCharts(eo) {
+    const ctx1 = document.getElementById('spectralChart').getContext('2d');
+    if (spectralChart) spectralChart.destroy();
+    spectralChart = new Chart(ctx1, {
+        type: 'line',
+        data: {
+            labels: eo.years,
+            datasets: [
+                { label: 'NDWI (شاخص آب)', data: eo.ndwi, borderColor: '#00d4ff', backgroundColor: 'rgba(0,212,255,0.15)', fill: true, tension: 0.35 },
+                { label: 'NDVI (پوشش گیاهی)', data: eo.ndvi, borderColor: '#10b981', backgroundColor: 'rgba(16,185,129,0.1)', fill: true, tension: 0.35 }
+            ]
+        },
+        options: {
+            responsive: true, maintainAspectRatio: false,
+            plugins: { legend: { labels: { color: '#cbd5e1', font: { family: 'Vazirmatn' } } } },
+            scales: {
+                x: { ticks: { color: '#94a3b8' }, grid: { color: '#1e3a5f44' } },
+                y: { ticks: { color: '#94a3b8' }, grid: { color: '#1e3a5f44' } }
+            }
+        }
+    });
+
+    const ctx2 = document.getElementById('hydroChart').getContext('2d');
+    if (hydroChart) hydroChart.destroy();
+    hydroChart = new Chart(ctx2, {
+        type: 'bar',
+        data: {
+            labels: eo.years,
+            datasets: [
+                { label: 'پهنه آبی فعال (هکتار)', data: eo.water_area_ha, backgroundColor: 'rgba(2, 132, 199, 0.7)', borderRadius: 5, yAxisID: 'y' },
+                { label: 'دمای سطحی LST (°C)', data: eo.lst_celsius, type: 'line', borderColor: '#f59e0b', tension: 0.3, yAxisID: 'y1' }
+            ]
+        },
+        options: {
+            responsive: true, maintainAspectRatio: false,
+            plugins: { legend: { labels: { color: '#cbd5e1', font: { family: 'Vazirmatn' } } } },
+            scales: {
+                x: { ticks: { color: '#94a3b8' }, grid: { display: false } },
+                y: { position: 'left', ticks: { color: '#38bdf8' }, grid: { color: '#1e3a5f44' } },
+                y1: { position: 'right', ticks: { color: '#f59e0b' }, grid: { display: false } }
+            }
+        }
+    });
+}
+
+function resetMapView() {
+    map.flyTo([32.5, 53.5], 5.4);
+}
+
+async function syncWetlandData() {
+    const note = document.getElementById('custom-note-input').value.trim();
+    const res = await fetch('/api/sync', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ramsar_id: selectedId, custom_note_fa: note })
+    }).then(r => r.json());
+
+    alert(res.message || 'بروزرسانی انجام شد.');
+    await selectWetland(selectedId);
+}
+
+function openNationalModal() {
+    const container = document.getElementById('national-reports-list');
+    container.innerHTML = '';
+    nationalReports.forEach(fname => {
+        container.innerHTML += `<a class="btn" href="/data/documents/national_reports/${fname}" target="_blank">📄 ${fname}</a>`;
+    });
+    document.getElementById('national-modal').style.display = 'flex';
+}
+
+function closeNationalModal() {
+    document.getElementById('national-modal').style.display = 'none';
+}
+
+function toggleLanguage() {
+    lang = lang === 'fa' ? 'en' : 'fa';
+    document.documentElement.dir = lang === 'fa' ? 'rtl' : 'ltr';
+    document.getElementById('lang-btn').textContent = lang === 'fa' ? '🌐 EN' : '🌐 FA';
+    document.getElementById('app-title').textContent = lang === 'fa'
+        ? 'TerraScope | دیده‌بان تالاب‌های ایران در کنوانسیون رامسر'
+        : 'TerraScope | Iran Ramsar Wetlands Ecological Observatory';
+    renderSiteList();
+    selectWetland(selectedId);
+}
+
+function printScientificReport() {
+    window.print();
+}
+
+window.addEventListener('DOMContentLoaded', loadInitialData);
+</script>
+</body>
+</html>
